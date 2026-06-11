@@ -104,7 +104,7 @@ function start() {
 
 if (!window.CV_DETAIL_SECTIONS) {
   const detailScript = document.createElement("script");
-  detailScript.src = "cv-details.js";
+  detailScript.src = "cv-details.js?v=20260611";
   detailScript.onload = start;
   detailScript.onerror = start;
   document.head.appendChild(detailScript);
