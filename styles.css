@@ -1,11 +1,11 @@
 :root {
   /* Core Colors */
-  --ink: #111827;
-  --muted: #6B7280;
-  --paper: #F9FAFB;
-  --soft: #F3F4F6;
+  --ink: #0F172A;
+  --muted: #334155;
+  --paper: #F8FAFC;
+  --soft: #F1F5F9;
   --white: #FFFFFF;
-  --line: #E5E7EB;
+  --line: #CBD5E1;
   
   /* Brand Colors - Upgraded */
   --teal: #0D9488;
@@ -38,7 +38,8 @@ body {
   color: var(--ink);
   background: var(--paper);
   font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  line-height: 1.7;
+  font-size: 1.05rem;
+  line-height: 1.75;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 }
