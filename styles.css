@@ -156,7 +156,7 @@ main {
 }
 
 .page-hero.home-hero {
-  background: linear-gradient(rgba(127,17,70,0.8), rgba(90,11,49,0.9)), url('HomePage_Banner.jpg') center/cover no-repeat;
+  background-color: var(--maroon);
   min-height: 340px;
 }
 
