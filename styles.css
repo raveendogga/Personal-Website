@@ -420,6 +420,62 @@ td {
   gap: 12px;
 }
 
+.accordion-list {
+  display: grid;
+  gap: 14px;
+}
+
+.accordion-list details {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--white);
+}
+
+.accordion-list summary {
+  cursor: pointer;
+  padding: 18px 22px;
+  color: var(--teal-dark);
+  font-weight: 900;
+}
+
+.accordion-list details > *:not(summary) {
+  margin: 0 22px 22px;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.detail-grid article,
+.detail-box {
+  min-width: 0;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--white);
+}
+
+.detail-list,
+.dense-list {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding-left: 20px;
+  color: var(--muted);
+}
+
+.dense-list {
+  gap: 7px;
+}
+
+.cv-note {
+  margin-top: 18px;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
 .paper-list.numbered {
   counter-reset: papers;
 }
@@ -556,7 +612,8 @@ td {
 
   .section-heading,
   .split-copy,
-  .timeline {
+  .timeline,
+  .detail-grid {
     grid-template-columns: 1fr;
   }
 }

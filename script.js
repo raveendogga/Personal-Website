@@ -32,6 +32,8 @@ function sectionMarkup(section, index) {
 
 function render() {
   document.title = pageKey === "home" ? "Dr. Dogga Raveendhra" : `${page.title} | Dr. Dogga Raveendhra`;
+  const expandedSections = window.CV_DETAIL_SECTIONS?.[pageKey] || [];
+  const pageSections = [...(page.sections || []), ...expandedSections];
 
   root.innerHTML = `
     <header class="site-header" data-header>
@@ -60,7 +62,7 @@ function render() {
         ${page.heroImage ? `<div class="hero-portrait"><img src="assets/profile.png" alt="Portrait of Dr. Dogga Raveendhra"></div>` : ""}
         ${statsMarkup(page.stats)}
       </section>
-      ${(page.sections || []).map(sectionMarkup).join("")}
+      ${pageSections.map(sectionMarkup).join("")}
     </main>
 
     <footer class="site-footer">
@@ -96,4 +98,16 @@ function render() {
   updateHeader();
 }
 
-render();
+function start() {
+  render();
+}
+
+if (!window.CV_DETAIL_SECTIONS) {
+  const detailScript = document.createElement("script");
+  detailScript.src = "cv-details.js";
+  detailScript.onload = start;
+  detailScript.onerror = start;
+  document.head.appendChild(detailScript);
+} else {
+  start();
+}
