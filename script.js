@@ -55,14 +55,25 @@ function render() {
           <p>${page.lead}</p>
           <div class="hero-actions">
             <a class="button primary" href="${data.contact.cv}" target="_blank" rel="noopener">Download CV</a>
-            <a class="button secondary" href="mailto:${data.contact.email}">Email</a>
+            <a class="button secondary" href="${data.contact.scholar}" target="_blank" rel="noopener">Google Scholar</a>
+            <a class="button secondary" href="${data.contact.linkedin}" target="_blank" rel="noopener">LinkedIn</a>
             <a class="button secondary" href="${data.contact.github}" target="_blank" rel="noopener">GitHub</a>
+            <a class="button secondary" href="mailto:${data.contact.email}">Email</a>
           </div>
         </div>
         ${page.heroImage ? `<div class="hero-portrait"><img src="assets/profile.png" alt="Portrait of Dr. Dogga Raveendhra"></div>` : ""}
         ${statsMarkup(page.stats)}
       </section>
       ${pageSections.map(sectionMarkup).join("")}
+      
+      ${pageKey === 'home' ? `
+      <section class="cta-section">
+        <div class="cta-inner">
+          <h2>Ready to collaborate?</h2>
+          <p>I'm always open to discussing research opportunities and industrial partnerships.</p>
+          <a class="button primary" href="mailto:${data.contact.email}">Get in touch</a>
+        </div>
+      </section>` : ''}
     </main>
 
     <footer class="site-footer">

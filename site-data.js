@@ -21,13 +21,14 @@ window.SITE_DATA = {
     institution: "Electrical Engineering Department, NIT Warangal",
     github: "https://github.com/raveendogga",
     linkedin: "https://www.linkedin.com/in/raveendhra-dogga-18729a3a",
+    scholar: "https://scholar.google.com/",
     cv: "assets/dr-dogga-raveendhra-cv.pdf"
   },
   pages: {
     home: {
       title: "Dr. Dogga Raveendhra",
       kicker: "Power Electronics | Smart Mobility | Renewable Energy",
-      lead: "Assistant Professor, Electrical Engineering, NIT Warangal. Driving research in power converters, electric vehicles, and renewable energy.",
+      lead: "Assistant Professor / Researcher / Tech Lead specializing in Power Electronics, EV Systems, and Renewable Energy. Dedicated to bridging the gap between academic innovation and industrial application.",
       heroImage: true,
       stats: [
         ["10+", "Years Experience"],
@@ -85,10 +86,10 @@ window.SITE_DATA = {
           title: "Recent high-impact research",
           body: `
             <div class="carousel-container">
-              <article><h3>State-of-the-Art Technologies of DC Micro Grid</h3><p>Energies, 2023.</p></article>
-              <article><h3>Supercapacitor Characterization Using Universal Adaptive Stabilization</h3><p>IEEE Open Journal, 2020.</p></article>
-              <article><h3>High DC-AC Gain Three-Phase Capacitor Clamped Boost Inverter</h3><p>Energies, 2022.</p></article>
-              <article><h3>Impact of Parasitics on Dynamic Performance</h3><p>IET Power Electronics, 2025.</p></article>
+              <article><h3>State-of-the-Art Technologies of DC Micro Grid</h3><p>Energies, 2023.</p><p class="impact">A comprehensive review of modern architectures and control strategies.</p></article>
+              <article><h3>Supercapacitor Characterization</h3><p>IEEE Open Journal, 2020.</p><p class="impact">Novel adaptive stabilization techniques for improved energy storage.</p></article>
+              <article><h3>High DC-AC Gain Inverter</h3><p>Energies, 2022.</p><p class="impact">Three-phase capacitor clamped boost inverter topology for solar integration.</p></article>
+              <article><h3>Impact of Parasitics</h3><p>IET Power Electronics, 2025.</p><p class="impact">In-depth dynamic performance analysis of power converters.</p></article>
             </div>`
         },
         {
