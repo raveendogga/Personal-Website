@@ -20,7 +20,7 @@ function sectionMarkup(section, index) {
   const bandClass = index % 2 === 1 ? " band" : "";
   return `
     <section class="content-section${bandClass}">
-      <div class="section-inner">
+      <div class="section-inner reveal-on-scroll">
         <div class="section-heading">
           <p class="eyebrow">${section.kicker || ""}</p>
           <h2>${section.title || ""}</h2>
@@ -96,6 +96,26 @@ function render() {
   const updateHeader = () => header?.classList.toggle("is-scrolled", window.scrollY > 16);
   window.addEventListener("scroll", updateHeader, { passive: true });
   updateHeader();
+
+  // Initialize IntersectionObserver for scroll animations
+  const observerOptions = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.15
+  };
+
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        obs.unobserve(entry.target);
+      }
+    });
+  }, observerOptions);
+
+  document.querySelectorAll('.reveal-on-scroll').forEach(el => {
+    observer.observe(el);
+  });
 }
 
 function start() {

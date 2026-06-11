@@ -72,6 +72,28 @@ window.SITE_DATA = {
             </ul>`
         },
         {
+          kicker: "Experience",
+          title: "Academic & Industry Journey",
+          body: `
+            <div class="timeline">
+              <article><span>2023 - Present</span><h3>Assistant Professor</h3><p>MNNIT Allahabad / NIT Warangal</p></article>
+              <article><span>2022 - 2023</span><h3>Senior Engineering Consultant</h3><p>ALTEN GmbH, Germany</p></article>
+              <article><span>2019 - 2020</span><h3>Post-Doctoral Research Associate</h3><p>American University of Sharjah, UAE</p></article>
+              <article><span>2016</span><h3>Visiting Doctoral Researcher</h3><p>NC State University, USA</p></article>
+            </div>`
+        },
+        {
+          kicker: "Featured Publications",
+          title: "Recent high-impact research",
+          body: `
+            <div class="carousel-container">
+              <article><h3>State-of-the-Art Technologies of DC Micro Grid</h3><p>Energies, 2023. DOI: 10.3390/en16020923.</p></article>
+              <article><h3>Supercapacitor Characterization Using Universal Adaptive Stabilization</h3><p>IEEE Open Journal of the Industrial Electronics Society, 2020.</p></article>
+              <article><h3>Analysis and Operation of High DC-AC Gain Three-Phase Capacitor Clamped Boost Inverter</h3><p>Energies, 2022. DOI: 10.3390/en15082955.</p></article>
+              <article><h3>Impact of Parasitics on the Dynamic Performance</h3><p>IET Power Electronics, 2025.</p></article>
+            </div>`
+        },
+        {
           kicker: "Contact",
           title: "For collaboration, invited talks, research supervision, and academic engagement",
           body: `
