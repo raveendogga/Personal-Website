@@ -23,19 +23,20 @@ Open `index.html` in a browser.
 
 ## GitHub Pages publishing
 
-This site is ready for a user GitHub Pages repository:
+This site is uploaded to:
+
+```text
+https://github.com/raveendogga/Personal-Website
+```
+
+For this project repository, GitHub Pages should be served from the `main` branch root:
 
 ```powershell
-git init
-git add .
-git commit -m "Create personal profile website"
-git branch -M main
-git remote add origin https://github.com/raveendogga/raveendogga.github.io.git
 git push -u origin main
 ```
 
-After the push, the site should be available at:
+After GitHub Pages is enabled, the site should be available at:
 
 ```text
-https://raveendogga.github.io/
+https://raveendogga.github.io/Personal-Website/
 ```
