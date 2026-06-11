@@ -1,6 +1,21 @@
 # Dr. Dogga Raveendhra - Personal Profile Website
 
-Static personal academic profile website for GitHub Pages.
+Static multi-page academic profile website for GitHub Pages, refreshed from `Dr Dogga_CV_MNNIT_Oct2024_V1`.
+
+## Pages
+
+- Home
+- Education
+- Work Experience
+- Team/Collaborations
+- Grants/Fund
+- Patents
+- Publications
+- Projects
+- Awards
+- Invited Sessions
+- Editorial/Reviewer Positions
+- FAQ
 
 ## Local preview
 

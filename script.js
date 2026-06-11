@@ -1,29 +1,99 @@
-const header = document.querySelector("[data-header]");
-const nav = document.querySelector("[data-nav]");
-const navToggle = document.querySelector("[data-nav-toggle]");
-const year = document.querySelector("[data-year]");
+const data = window.SITE_DATA;
+const pageKey = document.body.dataset.page || "home";
+const page = data.pages[pageKey] || data.pages.home;
+const root = document.querySelector("#site-root");
 
-function updateHeader() {
-  header?.classList.toggle("is-scrolled", window.scrollY > 24);
+function navMarkup() {
+  return data.nav
+    .map((item) => `<a class="${item.key === pageKey ? "active" : ""}" href="${item.href}">${item.label}</a>`)
+    .join("");
 }
 
-navToggle?.addEventListener("click", () => {
-  const isOpen = nav?.classList.toggle("is-open");
-  header?.classList.toggle("is-open", Boolean(isOpen));
-  navToggle.setAttribute("aria-expanded", String(Boolean(isOpen)));
-});
+function statsMarkup(stats = []) {
+  if (!stats.length) return "";
+  return `<dl class="stat-grid">${stats
+    .map(([value, label]) => `<div><dt>${value}</dt><dd>${label}</dd></div>`)
+    .join("")}</dl>`;
+}
 
-nav?.addEventListener("click", (event) => {
-  if (event.target instanceof HTMLAnchorElement) {
+function sectionMarkup(section, index) {
+  const bandClass = index % 2 === 1 ? " band" : "";
+  return `
+    <section class="content-section${bandClass}">
+      <div class="section-inner">
+        <div class="section-heading">
+          <p class="eyebrow">${section.kicker || ""}</p>
+          <h2>${section.title || ""}</h2>
+        </div>
+        <div class="section-body">${section.body || ""}</div>
+      </div>
+    </section>`;
+}
+
+function render() {
+  document.title = pageKey === "home" ? "Dr. Dogga Raveendhra" : `${page.title} | Dr. Dogga Raveendhra`;
+
+  root.innerHTML = `
+    <header class="site-header" data-header>
+      <a class="brand" href="index.html" aria-label="Dr. Dogga Raveendhra home">
+        <span class="brand-mark">DR</span>
+        <span>Dogga Raveendhra</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle>
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" data-nav>${navMarkup()}</nav>
+    </header>
+
+    <main>
+      <section class="page-hero ${page.heroImage ? "home-hero" : ""}">
+        <div class="hero-copy">
+          <p class="eyebrow">${page.kicker}</p>
+          <h1>${page.title}</h1>
+          <p>${page.lead}</p>
+          <div class="hero-actions">
+            <a class="button primary" href="${data.contact.cv}" target="_blank" rel="noopener">Download CV</a>
+            <a class="button secondary" href="mailto:${data.contact.email}">Email</a>
+            <a class="button secondary" href="${data.contact.github}" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+        ${page.heroImage ? `<div class="hero-portrait"><img src="assets/profile.png" alt="Portrait of Dr. Dogga Raveendhra"></div>` : ""}
+        ${statsMarkup(page.stats)}
+      </section>
+      ${(page.sections || []).map(sectionMarkup).join("")}
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>Dr. Dogga Raveendhra</strong>
+        <p>${data.contact.institution}</p>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:${data.contact.email}">${data.contact.email}</a>
+        <a href="${data.contact.cv}" target="_blank" rel="noopener">CV</a>
+        <a href="${data.contact.linkedin}" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </footer>`;
+
+  const header = document.querySelector("[data-header]");
+  const nav = document.querySelector("[data-nav]");
+  const toggle = document.querySelector("[data-nav-toggle]");
+
+  toggle?.addEventListener("click", () => {
+    const isOpen = nav.classList.toggle("is-open");
+    header.classList.toggle("is-open", isOpen);
+    toggle.setAttribute("aria-expanded", String(isOpen));
+  });
+
+  nav?.addEventListener("click", () => {
     nav.classList.remove("is-open");
-    header?.classList.remove("is-open");
-    navToggle?.setAttribute("aria-expanded", "false");
-  }
-});
+    header.classList.remove("is-open");
+    toggle?.setAttribute("aria-expanded", "false");
+  });
 
-window.addEventListener("scroll", updateHeader, { passive: true });
-updateHeader();
-
-if (year) {
-  year.textContent = String(new Date().getFullYear());
+  const updateHeader = () => header?.classList.toggle("is-scrolled", window.scrollY > 16);
+  window.addEventListener("scroll", updateHeader, { passive: true });
+  updateHeader();
 }
+
+render();
