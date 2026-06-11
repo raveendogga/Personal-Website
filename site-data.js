@@ -42,8 +42,8 @@ window.SITE_DATA = {
           title: "Hardware-driven research in power systems.",
           body: `
             <div class="split-copy">
-              <p>Assistant Professor at NIT Warangal specializing in Power Electronics, EV Systems, and Renewable Energy Conversion.</p>
-              <p>Global experience spanning academia and industry across India, Germany, UAE, and USA (NC State University).</p>
+              <p>Assistant Professor at NIT Warangal specializing in Power Electronics, EV Systems, and Renewable Energy. Founder of Zunik Energies, an IIT Roorkee incubated startup.</p>
+              <p>Global experience spanning academia, industry, and startups across India, Germany, UAE, and USA. Recognized with the Excellence in Doctoral Research Award from IIT Roorkee.</p>
             </div>`
         },
         {
@@ -63,9 +63,10 @@ window.SITE_DATA = {
           body: `
             <ul class="feature-list">
               <li>Excellence in Doctoral Research Award, IIT Roorkee.</li>
-              <li>Best Innovation Award, Zunik Energies (2019).</li>
-              <li>Visiting Researcher at FREEDM Systems Center, NC State University.</li>
-              <li>Expertise: Altium, Xilinx ISE, MATLAB, Simulink, LabVIEW, dSPACE.</li>
+              <li>Founder, Zunik Energies (IIT Roorkee Incubated Startup).</li>
+              <li>BASE Fellowship (DST/IUSSTF) at NC State University.</li>
+              <li>Delegate at SLUSH 2018 (Finland) and India-Italy Summit.</li>
+              <li>Albert Nelson Marquis Lifetime Achievement Award.</li>
             </ul>`
         },
         {
