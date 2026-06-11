@@ -11,6 +11,7 @@ window.SITE_DATA = {
     { key: "awards", label: "Awards", href: "awards.html" },
     { key: "invited", label: "Invited Sessions", href: "invited-sessions.html" },
     { key: "editorial", label: "Editorial/Reviewer Positions", href: "editorial-reviewer-positions.html" },
+    { key: "completeCv", label: "Complete CV", href: "complete-cv.html" },
     { key: "faq", label: "FAQ", href: "faq.html" }
   ],
   contact: {
@@ -440,6 +441,29 @@ window.SITE_DATA = {
               <li>TPC roles for ICCMERA, ICSoEB, IEEE Intelligent Energy and Power Systems, ICCVIA, CENCON, SIRS, TENSYMP, and related conferences.</li>
               <li>Reviewer for more than 25 IEEE and international conferences, including SCOReD, ISIE, PEOCO, PECon, TICPE, EECSI, CENCON, and ITEC.</li>
             </ul>`
+        }
+      ]
+    },
+    completeCv: {
+      title: "Complete CV",
+      kicker: "Full CV Archive",
+      lead: "A complete GitHub Pages archive of the latest local CV source, including the embedded official PDF and a searchable transcript of the public academic, professional, research, publication, project, award, reviewer, and guidance data.",
+      stats: [
+        ["745", "DOCX text paragraphs extracted"],
+        ["705", "Public CV transcript lines shown"],
+        ["PDF", "Original CV embedded"],
+        ["8", "Major CV transcript groups"]
+      ],
+      sections: [
+        {
+          kicker: "Original Source",
+          title: "Official CV PDF",
+          body: `
+            <div class="cv-source-actions">
+              <a class="button primary" href="assets/dr-dogga-raveendhra-cv.pdf" target="_blank" rel="noopener">Open CV PDF</a>
+              <a class="button secondary" href="assets/dr-dogga-raveendhra-cv.pdf" download>Download CV PDF</a>
+            </div>
+            <iframe class="cv-pdf-frame" src="assets/dr-dogga-raveendhra-cv.pdf#view=FitH" title="Dr. Dogga Raveendhra complete CV PDF"></iframe>`
         }
       ]
     },

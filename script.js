@@ -102,12 +102,22 @@ function start() {
   render();
 }
 
-if (!window.CV_DETAIL_SECTIONS) {
+function loadSupplementalScripts(srcs, done) {
+  const [src, ...rest] = srcs;
+  if (!src) {
+    done();
+    return;
+  }
+
   const detailScript = document.createElement("script");
-  detailScript.src = "cv-details.js?v=20260611";
-  detailScript.onload = start;
-  detailScript.onerror = start;
+  detailScript.src = src;
+  detailScript.onload = () => loadSupplementalScripts(rest, done);
+  detailScript.onerror = () => loadSupplementalScripts(rest, done);
   document.head.appendChild(detailScript);
-} else {
-  start();
 }
+
+const supplementalScripts = [];
+if (!window.CV_DETAIL_SECTIONS) supplementalScripts.push("cv-details.js?v=20260611");
+if (pageKey === "completeCv" && !window.CV_TRANSCRIPT_LOADED) supplementalScripts.push("cv-transcript.js?v=20260611");
+
+loadSupplementalScripts(supplementalScripts, start);
