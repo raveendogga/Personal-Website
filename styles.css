@@ -28,8 +28,8 @@ body {
   font-family: var(--font-body);
   background-color: #fafafa;
   color: #1a1a1a;
-  line-height: 1.8;
-  font-size: 1.15rem;
+  line-height: 1.6;
+  font-size: 1.05rem;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -44,20 +44,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: clamp(2.5rem, 5vw, 4rem);
-  letter-spacing: -1px;
-  margin-bottom: 1rem;
+  font-size: clamp(2rem, 4vw, 3rem);
+  letter-spacing: -0.5px;
+  margin-bottom: 0.8rem;
 }
 
 h2 {
-  font-size: clamp(1.8rem, 3vw, 2.5rem);
-  margin-bottom: 1.5rem;
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  margin-bottom: 1.2rem;
   color: #111;
 }
 
 h3 {
-  font-size: 1.35rem;
-  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.6rem;
   color: #222;
 }
 
@@ -116,7 +116,7 @@ a:hover {
 
 .site-nav a {
   font-family: var(--font-heading);
-  font-size: 12pt;
+  font-size: 11pt;
   color: var(--text-dark);
   text-decoration: none;
   padding: 20px 0;
@@ -214,8 +214,8 @@ main {
 .button {
   display: inline-block;
   font-family: var(--font-heading);
-  font-size: 1.1rem;
-  padding: 12px 28px;
+  font-size: 1rem;
+  padding: 10px 24px;
   text-decoration: none !important;
   border-radius: 6px;
   cursor: pointer;
@@ -336,7 +336,7 @@ th {
   background-color: var(--bg-gray);
   font-family: var(--font-heading);
   color: var(--maroon);
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 tr:last-child td {
