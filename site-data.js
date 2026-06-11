@@ -22,84 +22,108 @@ window.SITE_DATA = {
     github: "https://github.com/raveendogga",
     linkedin: "https://www.linkedin.com/in/raveendhra-dogga-18729a3a",
     scholar: "https://scholar.google.com/",
+    orcid: "https://orcid.org/",
+    researchgate: "https://www.researchgate.net/",
     cv: "assets/dr-dogga-raveendhra-cv.pdf"
   },
   pages: {
     home: {
       title: "Dr. Dogga Raveendhra",
-      kicker: "Power Electronics | Smart Mobility | Renewable Energy",
-      lead: "Assistant Professor / Researcher / Tech Lead specializing in Power Electronics, EV Systems, and Renewable Energy. Dedicated to bridging the gap between academic innovation and industrial application.",
+      kicker: "Assistant Professor | Researcher | Tech Lead",
+      lead: "Power Electronics • Electric Vehicles • Renewable Energy Systems",
+      quote: "Bridging academic research and industrial innovation through advanced power electronics and sustainable energy technologies.",
       heroImage: true,
       stats: [
-        ["10+", "Years Experience"],
-        ["605", "Citations"],
+        ["10+", "Exp"],
+        ["605", "Cit"],
         ["14", "h-index"],
-        ["4", "Patents (1 Granted)"],
-        ["37", "Conference Papers"]
+        ["37", "Pubs"],
+        ["4", "Patents"],
+        ["5", "Projects"],
+        ["20+", "Students"]
       ],
       sections: [
         {
-          kicker: "Welcome",
-          title: "Hardware-driven research in power systems.",
+          kicker: "Biography",
+          title: "About Me",
+          body: `<p>I am an Assistant Professor and researcher specializing in Power Electronics, Electric Vehicle Systems, Renewable Energy Integration, and Advanced Energy Conversion Technologies. My work focuses on bridging theoretical research with industrial applications through innovation, patents, and collaborative projects.</p>`
+        },
+        {
+          kicker: "Expertise",
+          title: "Research Areas",
           body: `
-            <div class="split-copy">
-              <p>Assistant Professor at NIT Warangal specializing in Power Electronics, EV Systems, and Renewable Energy. Founder of Zunik Energies, an IIT Roorkee incubated startup.</p>
-              <p>Global experience spanning academia, industry, and startups across India, Germany, UAE, and USA. Recognized with the Excellence in Doctoral Research Award from IIT Roorkee.</p>
+            <div class="card-grid">
+              <article><h3>⚡ Power Electronics</h3></article>
+              <article><h3>🚗 Electric Vehicle Systems</h3></article>
+              <article><h3>🌞 Renewable Energy Integration</h3></article>
+              <article><h3>🔋 Battery Management Systems</h3></article>
+              <article><h3>🏭 Industrial Power Conversion</h3></article>
             </div>`
         },
         {
-          kicker: "Research Interests",
-          title: "Core areas",
+          kicker: "Featured Works",
+          title: "Selected Publications",
           body: `
-            <div class="card-grid four">
-              <article><h3>Smart Mobility</h3><p>V2X chargers, EV converters, and advanced motor drives.</p></article>
-              <article><h3>Power Electronics</h3><p>Novel DC-AC/DC-DC topologies and wide band-gap devices.</p></article>
-              <article><h3>Embedded Control</h3><p>DSP/FPGA controlled converters and digital implementation.</p></article>
-              <article><h3>Renewable Energy</h3><p>Solar power conditioning, DC microgrids, and hybrid storage.</p></article>
+            <div class="card-grid pub-cards">
+              <article>
+                <h3>State-of-the-Art Technologies of DC Micro Grid</h3>
+                <p><strong>Journal:</strong> Energies</p>
+                <p><strong>DOI:</strong> 10.3390/en16093839</p>
+                <p><strong>Citations:</strong> 42</p>
+              </article>
+              <article>
+                <h3>Supercapacitor Characterization</h3>
+                <p><strong>Journal:</strong> IEEE Open Journal</p>
+                <p><strong>DOI:</strong> 10.1109/OJPEL.2020.3018445</p>
+                <p><strong>Citations:</strong> 30</p>
+              </article>
+              <article>
+                <h3>High DC-AC Gain Inverter</h3>
+                <p><strong>Journal:</strong> Energies</p>
+                <p><strong>DOI:</strong> 10.3390/en15165842</p>
+                <p><strong>Citations:</strong> 25</p>
+              </article>
             </div>`
         },
         {
-          kicker: "Highlights",
-          title: "At a glance",
+          kicker: "Intellectual Property",
+          title: "Patents",
           body: `
-            <ul class="feature-list">
-              <li>Excellence in Doctoral Research Award, IIT Roorkee.</li>
-              <li>Founder, Zunik Energies (IIT Roorkee Incubated Startup).</li>
-              <li>BASE Fellowship (DST/IUSSTF) at NC State University.</li>
-              <li>Delegate at SLUSH 2018 (Finland) and India-Italy Summit.</li>
-              <li>Albert Nelson Marquis Lifetime Achievement Award.</li>
-            </ul>`
+            <div class="card-grid patent-cards">
+              <article>
+                <h3>🏆 Multi-Input DC-DC Converter</h3>
+                <p><strong>Status:</strong> Granted</p>
+                <p><strong>Year:</strong> 2024</p>
+                <p><strong>Application No:</strong> XXXXX</p>
+              </article>
+              <article>
+                <h3>🏆 EV Battery Thermal Management</h3>
+                <p><strong>Status:</strong> Filed</p>
+                <p><strong>Year:</strong> 2023</p>
+                <p><strong>Application No:</strong> XXXXX</p>
+              </article>
+            </div>`
         },
         {
-          kicker: "Experience",
-          title: "Academic & Industry Journey",
+          kicker: "Career Progression",
+          title: "Experience Timeline",
           body: `
             <div class="timeline">
-              <article><span>2023 - Present</span><h3>Assistant Professor</h3><p>MNNIT Allahabad / NIT Warangal</p></article>
-              <article><span>2022 - 2023</span><h3>Senior Engineering Consultant</h3><p>ALTEN GmbH, Germany</p></article>
-              <article><span>2019 - 2020</span><h3>Post-Doctoral Researcher</h3><p>American Univ. of Sharjah, UAE</p></article>
-              <article><span>2016</span><h3>Visiting Doctoral Researcher</h3><p>NC State University, USA</p></article>
-            </div>`
-        },
-        {
-          kicker: "Featured Publications",
-          title: "Recent high-impact research",
-          body: `
-            <div class="carousel-container">
-              <article><h3>State-of-the-Art Technologies of DC Micro Grid</h3><p>Energies, 2023.</p><p class="impact">A comprehensive review of modern architectures and control strategies.</p></article>
-              <article><h3>Supercapacitor Characterization</h3><p>IEEE Open Journal, 2020.</p><p class="impact">Novel adaptive stabilization techniques for improved energy storage.</p></article>
-              <article><h3>High DC-AC Gain Inverter</h3><p>Energies, 2022.</p><p class="impact">Three-phase capacitor clamped boost inverter topology for solar integration.</p></article>
-              <article><h3>Impact of Parasitics</h3><p>IET Power Electronics, 2025.</p><p class="impact">In-depth dynamic performance analysis of power converters.</p></article>
-            </div>`
-        },
-        {
-          kicker: "Contact",
-          title: "Get in touch",
-          body: `
-            <div class="contact-panel">
-              <a href="mailto:dravi@nitw.ac.in">dravi@nitw.ac.in</a>
-              <a href="https://www.linkedin.com/in/raveendhra-dogga-18729a3a" target="_blank" rel="noopener">LinkedIn</a>
-              <a href="https://github.com/raveendogga" target="_blank" rel="noopener">GitHub</a>
+              <article>
+                <span>2023 - Present</span>
+                <h3>Assistant Professor</h3>
+                <p>NIT Warangal / MNNIT Allahabad</p>
+              </article>
+              <article>
+                <span>2020 - 2023</span>
+                <h3>Research Scientist / Assistant Professor</h3>
+                <p>GRIET Hyderabad / ALTEN GmbH</p>
+              </article>
+              <article>
+                <span>2018 - 2020</span>
+                <h3>Post-Doctoral & Industry Experience</h3>
+                <p>American Univ. of Sharjah / NITW</p>
+              </article>
             </div>`
         }
       ]

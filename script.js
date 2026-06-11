@@ -11,9 +11,17 @@ function navMarkup() {
 
 function statsMarkup(stats = []) {
   if (!stats.length) return "";
-  return `<dl class="stat-grid">${stats
-    .map(([value, label]) => `<div><dt>${value}</dt><dd>${label}</dd></div>`)
-    .join("")}</dl>`;
+  return `
+    <section class="stats-section">
+      <div class="stats-grid">
+        ${stats.map(([value, label]) => `
+          <div class="stat-card">
+            <div class="stat-value">${value}</div>
+            <div class="stat-label">${label}</div>
+          </div>
+        `).join("")}
+      </div>
+    </section>`;
 }
 
 function sectionMarkup(section, index) {
@@ -49,21 +57,23 @@ function render() {
 
     <main>
       <section class="page-hero ${page.heroImage ? "home-hero" : ""}">
-        <div class="hero-copy">
-          <p class="eyebrow">${page.kicker}</p>
-          <h1>${page.title}</h1>
-          <p>${page.lead}</p>
-          <div class="hero-actions">
-            <a class="button primary" href="${data.contact.cv}" target="_blank" rel="noopener">Download CV</a>
-            <a class="button secondary" href="${data.contact.scholar}" target="_blank" rel="noopener">Google Scholar</a>
-            <a class="button secondary" href="${data.contact.linkedin}" target="_blank" rel="noopener">LinkedIn</a>
-            <a class="button secondary" href="${data.contact.github}" target="_blank" rel="noopener">GitHub</a>
-            <a class="button secondary" href="mailto:${data.contact.email}">Email</a>
+        <div class="hero-content">
+          <div class="hero-copy">
+            <p class="eyebrow">${page.kicker}</p>
+            <h1>${page.title}</h1>
+            <h2 class="hero-lead">${page.lead}</h2>
+            ${page.quote ? `<p class="hero-quote">"${page.quote}"</p>` : ""}
+            <div class="hero-actions">
+              <a class="button primary" href="${data.contact.cv}" target="_blank" rel="noopener">Download CV</a>
+              <a class="button secondary" href="${data.contact.scholar}" target="_blank" rel="noopener">Google Scholar</a>
+              <a class="button secondary" href="publications.html">Publications</a>
+              <a class="button secondary" href="mailto:${data.contact.email}">Contact</a>
+            </div>
           </div>
+          ${page.heroImage ? `<div class="hero-portrait"><img src="assets/profile.png" alt="Portrait of Dr. Dogga Raveendhra"></div>` : ""}
         </div>
-        ${page.heroImage ? `<div class="hero-portrait"><img src="assets/profile.png" alt="Portrait of Dr. Dogga Raveendhra"></div>` : ""}
-        ${statsMarkup(page.stats)}
       </section>
+      ${pageKey === 'home' ? statsMarkup(page.stats) : ""}
       ${pageSections.map(sectionMarkup).join("")}
       
       ${pageKey === 'home' ? `
@@ -77,14 +87,21 @@ function render() {
     </main>
 
     <footer class="site-footer">
-      <div>
-        <strong>Dr. Dogga Raveendhra</strong>
-        <p>${data.contact.institution}</p>
-      </div>
-      <div class="footer-links">
-        <a href="mailto:${data.contact.email}">${data.contact.email}</a>
-        <a href="${data.contact.cv}" target="_blank" rel="noopener">CV</a>
-        <a href="${data.contact.linkedin}" target="_blank" rel="noopener">LinkedIn</a>
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <strong>Dr. Dogga Raveendhra</strong>
+          <p>Power Electronics | EV Systems | Renewable Energy</p>
+        </div>
+        <div class="footer-links">
+          <a href="mailto:${data.contact.email}">Email</a>
+          <a href="${data.contact.linkedin}" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="${data.contact.scholar}" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="${data.contact.orcid}" target="_blank" rel="noopener">ORCID</a>
+          <a href="${data.contact.researchgate}" target="_blank" rel="noopener">ResearchGate</a>
+        </div>
+        <div class="footer-copy">
+          <p>&copy; ${new Date().getFullYear()} Dr. Dogga Raveendhra</p>
+        </div>
       </div>
     </footer>`;
 
