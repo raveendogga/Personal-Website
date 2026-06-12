@@ -743,3 +743,10 @@ tr:hover td {
   gap: 16px;
   margin-bottom: 20px;
 }
+
+ . a b o u t - c o p y   p   { 
+     m a r g i n - b o t t o m :   1 . 5 r e m ; 
+     l i n e - h e i g h t :   1 . 8 ; 
+     c o l o r :   v a r ( - - t e x t - c o l o r ) ; 
+ }  
+ 
