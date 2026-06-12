@@ -52,12 +52,30 @@ window.SITE_DATA = {
           title: "Core areas of research",
           body: `
             <div class="card-grid three">
-              <article class="interest-card"><h3>Smart Mobility</h3></article>
-              <article class="interest-card"><h3>Power Electronics & Devices</h3></article>
-              <article class="interest-card"><h3>Embedded Power Electronics</h3></article>
-              <article class="interest-card"><h3>Renewable Energy</h3></article>
-              <article class="interest-card"><h3>EV Charging Systems</h3></article>
-              <article class="interest-card"><h3>Grid Integration</h3></article>
+              <article class="interest-card">
+                <img src="assets/smart_mobility_icon.png" alt="Smart Mobility" class="interest-icon">
+                <h3>Smart Mobility</h3>
+              </article>
+              <article class="interest-card">
+                <img src="assets/power_electronics_icon.png" alt="Power Electronics & Devices" class="interest-icon">
+                <h3>Power Electronics & Devices</h3>
+              </article>
+              <article class="interest-card">
+                <img src="assets/embedded_power_icon.png" alt="Embedded Power Electronics" class="interest-icon">
+                <h3>Embedded Power Electronics</h3>
+              </article>
+              <article class="interest-card">
+                <img src="assets/renewable_energy_icon.png" alt="Renewable Energy" class="interest-icon">
+                <h3>Renewable Energy</h3>
+              </article>
+              <article class="interest-card">
+                <img src="assets/ev_charging_icon.png" alt="EV Charging Systems" class="interest-icon">
+                <h3>EV Charging Systems</h3>
+              </article>
+              <article class="interest-card">
+                <img src="assets/grid_integration_icon.png" alt="Grid Integration" class="interest-icon">
+                <h3>Grid Integration</h3>
+              </article>
             </div>`
         },
         {
