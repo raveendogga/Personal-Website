@@ -49,19 +49,21 @@ function render() {
 
     <main>
       <section class="page-hero ${page.heroImage ? "home-hero" : ""}">
-        <div class="hero-copy">
-          <p class="eyebrow">${page.kicker}</p>
-          <h1>${page.title}</h1>
-          <p>${page.lead}</p>
-          <div class="hero-actions">
-            <a class="button primary" href="${data.contact.cv}" target="_blank" rel="noopener">Download CV</a>
-            <a class="button secondary" href="${data.contact.scholar}" target="_blank" rel="noopener">Google Scholar</a>
-            <a class="button secondary" href="${data.contact.linkedin}" target="_blank" rel="noopener">LinkedIn</a>
-            <a class="button secondary" href="${data.contact.github}" target="_blank" rel="noopener">GitHub</a>
-            <a class="button secondary" href="mailto:${data.contact.email}">Email</a>
+        <div class="hero-content-wrapper">
+          <div class="hero-copy">
+            <h1>${page.title}</h1>
+            <p class="hero-subtitle">${page.lead}</p>
+            <p class="hero-focus">${page.kicker}</p>
+            <div class="hero-actions">
+              <a class="button primary" href="${data.contact.cv}" target="_blank" rel="noopener">Download CV</a>
+              <a class="button secondary" href="${data.contact.scholar}" target="_blank" rel="noopener">Google Scholar</a>
+              <a class="button secondary" href="${data.contact.linkedin}" target="_blank" rel="noopener">LinkedIn</a>
+              <a class="button secondary" href="${data.contact.github}" target="_blank" rel="noopener">GitHub</a>
+              <a class="button secondary" href="mailto:${data.contact.email}">Email</a>
+            </div>
           </div>
+          ${page.heroImage ? `<div class="hero-portrait"><img src="assets/profile.png" alt="Portrait of Dr. Dogga Raveendhra"></div>` : ""}
         </div>
-        ${page.heroImage ? `<div class="hero-portrait"><img src="assets/profile.png" alt="Portrait of Dr. Dogga Raveendhra"></div>` : ""}
         ${statsMarkup(page.stats)}
       </section>
       ${pageSections.map(sectionMarkup).join("")}

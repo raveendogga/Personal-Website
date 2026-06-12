@@ -27,15 +27,15 @@ window.SITE_DATA = {
   pages: {
     home: {
       title: "Dr. Dogga Raveendhra",
-      kicker: "Power Electronics | Smart Mobility | Renewable Energy",
-      lead: "Assistant Professor / Researcher / Tech Lead specializing in Power Electronics, EV Systems, and Renewable Energy. Dedicated to bridging the gap between academic innovation and industrial application.",
+      kicker: "Power Electronics • EV Systems • Renewable Energy",
+      lead: "Assistant Professor | Researcher | Tech Lead",
       heroImage: true,
       stats: [
-        ["10+", "Years Experience"],
+        ["10+", "Experience (Years)"],
         ["605", "Citations"],
         ["14", "h-index"],
-        ["4", "Patents (1 Granted)"],
-        ["37", "Conference Papers"]
+        ["4", "Patents"],
+        ["37", "Publications"]
       ],
       sections: [
         {
@@ -49,13 +49,15 @@ window.SITE_DATA = {
         },
         {
           kicker: "Research Interests",
-          title: "Core areas",
+          title: "Core areas of research",
           body: `
-            <div class="card-grid four">
-              <article><h3>Smart Mobility</h3><p>V2X chargers, EV converters, and advanced motor drives.</p></article>
-              <article><h3>Power Electronics</h3><p>Novel DC-AC/DC-DC topologies and wide band-gap devices.</p></article>
-              <article><h3>Embedded Control</h3><p>DSP/FPGA controlled converters and digital implementation.</p></article>
-              <article><h3>Renewable Energy</h3><p>Solar power conditioning, DC microgrids, and hybrid storage.</p></article>
+            <div class="card-grid three">
+              <article class="interest-card"><h3>Smart Mobility</h3></article>
+              <article class="interest-card"><h3>Power Electronics & Devices</h3></article>
+              <article class="interest-card"><h3>Embedded Power Electronics</h3></article>
+              <article class="interest-card"><h3>Renewable Energy</h3></article>
+              <article class="interest-card"><h3>EV Charging Systems</h3></article>
+              <article class="interest-card"><h3>Grid Integration</h3></article>
             </div>`
         },
         {
