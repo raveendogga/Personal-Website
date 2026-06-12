@@ -20,7 +20,7 @@ window.SITE_DATA = {
     institution: "Electrical Engineering Department, NIT Warangal",
     github: "https://github.com/raveendogga",
     linkedin: "https://www.linkedin.com/in/raveendhra-dogga-18729a3a",
-    scholar: "https://scholar.google.com/",
+    scholar: "https://scholar.google.com/citations?user=2Dto4hsAAAAJ&hl=en&oi=ao/",
     cv: "assets/dr-dogga-raveendhra-cv.pdf"
   },
   pages: {
@@ -31,10 +31,9 @@ window.SITE_DATA = {
       heroImage: true,
       stats: [
         ["10+", "Experience (Years)"],
-        ["605", "Citations"],
-        ["14", "h-index"],
+        ["Germany, USA, UAE", "Countries Worked"],
         ["4", "Patents"],
-        ["37", "Publications"]
+        ["60+", "Publications"]
       ],
       sections: [
         {
