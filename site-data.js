@@ -131,388 +131,401 @@ window.SITE_DATA = {
     education: {
       title: "Education",
       kicker: "Academic Formation",
-      lead: "Research training from JNTU, IIT Roorkee, NC State University, and American University of Sharjah.",
+      lead: "Education and research training from JNTU Kakinada, IIT Roorkee, NC State University, and the Renewable Energy Research Center at American University of Sharjah.",
       sections: [
         {
           kicker: "Degrees",
           title: "Formal education",
           body: `
             <div class="timeline">
-              <article><span>2019</span><h3>Ph.D., Electrical Engineering</h3><p>IIT Roorkee. Transformerless Power Converters for Solar PV. Grade: A.</p></article>
-              <article><span>2012</span><h3>M.Tech., Power Electronics</h3><p>IIT Roorkee. Converter Systems for Solar PV.</p></article>
-              <article><span>2009</span><h3>B.Tech., Electrical Engineering</h3><p>JNTU Kakinada.</p></article>
+              <article><span>2019</span><h3>Ph.D., Electrical Engineering</h3><p>Indian Institute of Technology Roorkee. Thesis: Improved Power Quality Transformerless Power Converters for Solar PV Applications. Thesis grade: A.</p></article>
+              <article><span>2012</span><h3>M.Tech., Electrical Drives and Power Electronics</h3><p>Indian Institute of Technology Roorkee. Dissertation: Development of Converter System for Solar PV Power Generation. Score: 88.33%.</p></article>
+              <article><span>2009</span><h3>B.Tech., Electrical and Electronics Engineering</h3><p>JNTU Kakinada. Score: 65.63%.</p></article>
             </div>`
         },
         {
           kicker: "Research Training",
-          title: "Global exposure",
+          title: "International research exposure",
           body: `
             <div class="card-grid">
-              <article><h3>Post-Doctoral Researcher</h3><p>American University of Sharjah, UAE. EV hybrid energy storage and SiC converters.</p></article>
-              <article><h3>Visiting Doctoral Researcher</h3><p>NC State University, USA. IGBT gate-drives and solar inverter sliding mode control.</p></article>
+              <article><h3>Post-Doctoral Research Associate</h3><p>Renewable Energy Research Center, American University of Sharjah, UAE. Focus: hybrid energy storage systems for electric vehicles, supercapacitor characterization, traction inverter analysis, and field-oriented control for automotive drives.</p></article>
+              <article><h3>Visiting Doctoral Researcher</h3><p>FREEDM Systems Center, NC State University, USA. Focus: power converter design, power semiconductor characterization, IGBT gate-drive design, DESAT/thermal protection, and sliding mode control for solar powered inverters.</p></article>
             </div>`
         },
         {
-          kicker: "Tools",
-          title: "Hardware & Software",
+          kicker: "Technical Qualifications",
+          title: "Tools and hardware platforms",
           body: `
             <div class="tag-cloud">
-              <span>MATLAB/Simulink</span><span>PSIM</span><span>Altium</span><span>LabVIEW</span><span>dSPACE</span><span>Xilinx</span><span>TI DSP</span><span>Arduino</span>
+              <span>C</span><span>MATLAB</span><span>VHDL</span><span>Simulink</span><span>PSIM</span><span>Altium</span><span>Eagle</span><span>LabVIEW</span><span>dSPACE ControlDesk</span><span>Xilinx System Generator</span><span>Arduino IDE</span><span>CCStudio</span><span>Spartan-3E/3A FPGA</span><span>TMS320F2812 DSP</span><span>Arduino Due/Mega/Uno</span><span>TI Piccolo LaunchPad</span>
             </div>`
         }
       ]
     },
     work: {
       title: "Work Experience",
-      kicker: "Academic & Industry Roles",
-      lead: "10+ years across teaching, product development, EV power electronics, and sponsored research.",
+      kicker: "Academic, Industry, Startup, and International Roles",
+      lead: "The latest CV records work across teaching, research, product development, EV power electronics, renewable energy converters, laboratory hardware, and sponsored research coordination.",
       sections: [
         {
-          kicker: "Current Role",
-          title: "Assistant Professor, NIT Warangal",
-          body: `<p class="lead-copy">Teaching, R&D in power electronics, converter design, and student mentoring.</p>`
+          kicker: "Current Appointment",
+          title: "Assistant Professor, Electrical Engineering Department, NIT Warangal",
+          body: `
+            <p class="lead-copy">The CV header lists the current affiliation as Assistant Professor, EED, NIT Warangal. Core responsibilities include teaching, research and development, power electronics laboratory work, converter design, and student mentoring.</p>`
         },
         {
-          kicker: "International",
-          title: "Global Industry & Research",
+          kicker: "International Work Experience",
+          title: "Roles outside India",
           body: `
             <div class="timeline">
-              <article><span>2022 - 2023</span><h3>Consultant, ALTEN GmbH (Germany)</h3><p>Developed controller algorithms for EV on-board chargers.</p></article>
-              <article><span>2019 - 2020</span><h3>Post-Doc, AUS (UAE)</h3><p>EV hybrid energy storage and 400V traction drive control.</p></article>
-              <article><span>2016</span><h3>Visiting Researcher, NC State (USA)</h3><p>Solar PV converter design and IGBT gate-drives.</p></article>
+              <article><span>Dec 2022 - Jun 2023</span><h3>Senior Engineering Consultant, ALTEN GmbH, Germany</h3><p>Developed controller algorithms for electric vehicle on-board chargers and implemented innovative research for EV power converters.</p></article>
+              <article><span>Sep 2019 - Jun 2020</span><h3>Post-Doctoral Research Associate, American University of Sharjah, UAE</h3><p>Worked on hybrid energy storage systems for EVs, supercapacitor characterization using SiC converters, loss-thermal modelling of SVM inverters, traction inverter ripple and capacitor sizing, fault and transient analysis, and 400 V IPM traction drive control.</p></article>
+              <article><span>Jul 2016 - Nov 2016</span><h3>Visiting Doctoral Researcher, NC State University, USA</h3><p>Designed and developed power converters for solar PV systems, power semiconductor characterization circuits, IGBT gate-drive circuits, protection circuits, and sliding mode controllers for solar powered inverters.</p></article>
             </div>`
         },
         {
-          kicker: "India",
-          title: "Academia & Startups",
+          kicker: "India Work Experience",
+          title: "Academic and R&D roles",
           body: `
             <div class="timeline">
-              <article><span>2023 - 2026</span><h3>Asst. Professor, MNNIT Allahabad</h3><p>Convener for Center for Sustainable Energy.</p></article>
-              <article><span>2017 - Present</span><h3>Founder & Tech Lead, Zunik Energies</h3><p>R&D of 200kW SiC central inverters and EV converters.</p></article>
-              <article><span>2020 - 2022</span><h3>Assoc. Professor, GRIET Hyderabad</h3><p>M.Tech coordination and industrial drives research.</p></article>
-              <article><span>2016 - 2019</span><h3>Senior Research Fellow, IIT Roorkee</h3><p>Design and validation of MOSFET/IGBT based converters.</p></article>
-              <article><span>2014 - 2016</span><h3>Junior Research Fellow, IIT Roorkee</h3><p>TIDES-funded capacitor clamped boost inverter research.</p></article>
-              <article><span>2012 - 2014</span><h3>Assistant Professor, Graphic Era University</h3><p>Teaching and Industrial Drives Lab coordination.</p></article>
+              <article><span>2023 - 2026</span><h3>Assistant Professor, MNNIT Allahabad</h3><p>Teaching, research and development, DCC sub-committee member in TEC Government of India, convener for Center for Sustainable Energy, Power Electronics Lab officer-in-charge, and institute/department service roles.</p></article>
+              <article><span>From Nov 2017</span><h3>Senior Research Engineer, Tech Lead, Founder, Zunik Energies Pvt. Ltd.</h3><p>Research and product development of power electronic converters for renewable energy and electric vehicle applications. Products included a single-stage capacitor clamped boost inverter, supercapacitor characterization circuit using SiC-based power converter, 200 kW SiC-based central inverter, and LC bidirectional DC-DC converter.</p></article>
+              <article><span>Oct 2020 - Nov 2022</span><h3>Associate Professor, GRIET Hyderabad</h3><p>Teaching, research and development, Industrial Drives Lab research, M.Tech coordination, and project work on capacitor clamped boost inverter and power semiconductor device characterization.</p></article>
+              <article><span>Jun 2016 - Jul 2019</span><h3>Senior Research Fellow, IIT Roorkee</h3><p>Design, dynamic modelling, simulation, implementation, and experimental validation of MOSFET and IGBT based converters and single-stage boost inverter systems.</p></article>
+              <article><span>Jul 2014 - May 2016</span><h3>Junior Research Fellow, IIT Roorkee</h3><p>Worked on TIDES-funded capacitor clamped boost inverter research, solar PV converter development, and FPGA/digital control work.</p></article>
+              <article><span>Jul 2012 - Jul 2014</span><h3>Assistant Professor, Graphic Era University</h3><p>Teaching and research, Industrial Drives Lab, advanced control and drives laboratory coordination, and supervisory controls for hybrid electric vehicles.</p></article>
             </div>`
         }
       ]
     },
     team: {
-      title: "Team & Collaborations",
-      kicker: "Mentorship",
-      lead: "Guidance in power electronics, EVs, and renewable energy systems.",
+      title: "Team/Collaborations",
+      kicker: "Mentoring, Memberships, and Collaboration",
+      lead: "Student guidance, international collaboration, and professional participation across power electronics, EVs, renewable energy systems, and converter hardware.",
       sections: [
         {
           kicker: "Guidance",
-          title: "Student Projects",
+          title: "Students and dissertations",
           body: `
-            <p class="lead-copy">Supervised 8 M.Tech and 25 B.Tech academic projects.</p>
-            <div class="table-wrap"><table><thead><tr><th>Topic</th><th>University</th><th>Year</th></tr></thead><tbody>
-              <tr><td>EV On-board Chargers</td><td>MNNIT Allahabad</td><td>2025</td></tr>
-              <tr><td>Wide Bandgap Device Characterization</td><td>MNNIT Allahabad</td><td>2025</td></tr>
-              <tr><td>Renewable Integration in DC Microgrids</td><td>MNNIT Allahabad</td><td>2025</td></tr>
-              <tr><td>Bidirectional AC-DC Converters for EV Chargers</td><td>MNNIT Allahabad</td><td>2024</td></tr>
-              <tr><td>High Performance Solar PV Converters</td><td>MNNIT Allahabad</td><td>2024</td></tr>
-              <tr><td>Isolated DC-DC Converters for EV</td><td>MNNIT Allahabad</td><td>2024</td></tr>
-              <tr><td>Wireless Power Transfer Network Control</td><td>GRIET Hyderabad</td><td>2021</td></tr>
-              <tr><td>Common Mode Voltage Reduction in Motor Drives</td><td>JNTU Kakinada</td><td>2018</td></tr>
+            <p class="lead-copy">The latest CV notes guidance of 8 M.Tech projects and 25 B.Tech academic projects, with additional MNNIT dissertations in EV chargers, wide band-gap device characterization, renewable energy integration, and isolated DC-DC converters.</p>
+            <div class="table-wrap"><table><thead><tr><th>Year/Duration</th><th>Candidate</th><th>Dissertation/Project</th><th>University</th></tr></thead><tbody>
+              <tr><td>July 2025</td><td>Mohammad Asif Ali</td><td>Improved Performance On-board Charger for EV Application</td><td>MNNIT Allahabad</td></tr>
+              <tr><td>July 2025</td><td>Aman Keshari</td><td>Characterization of Wide Bandgap Power Semiconductor Devices for Improved Performance and EMI Mitigation</td><td>MNNIT Allahabad</td></tr>
+              <tr><td>July 2025</td><td>Shikha Barti</td><td>High Gain Converter based Renewable Energy Integration in DC Microgrid</td><td>MNNIT Allahabad</td></tr>
+              <tr><td>July 2024</td><td>Varun Sharma</td><td>Bidirectional AC-DC Converters for EV Chargers with PFC and V2G Capabilities</td><td>MNNIT Allahabad</td></tr>
+              <tr><td>July 2024</td><td>Abhinav Kumar Singh</td><td>High Performance Power Electronic Converter for Solar PV Applications</td><td>MNNIT Allahabad</td></tr>
+              <tr><td>July 2024</td><td>Jyotirmoy Saharia</td><td>Isolated DC-DC Converters for EV Application</td><td>MNNIT Allahabad</td></tr>
+              <tr><td>July 2021</td><td>V Ranadeep</td><td>Control of Capacitive Coupled Impedance Source Type Wireless Power Transfer Network</td><td>GRIET Hyderabad</td></tr>
+              <tr><td>July 2017 - June 2018</td><td>Mr. Surya Kiran</td><td>Common Mode Voltage Reduction Techniques in Induction Motor Drive</td><td>JNTU Kakinada</td></tr>
             </tbody></table></div>`
         },
         {
-          kicker: "Memberships",
-          title: "Professional Community",
+          kicker: "Professional Memberships",
+          title: "Research community participation",
           body: `
             <ul class="feature-list">
               <li>IEEE Member.</li>
-              <li>Member, IEEE IES Resonant and Soft Switching Converters Subcommittee.</li>
-              <li>Full Member, European Energy Centre.</li>
+              <li>Member, Subcommittee of Resonant and Soft Switching Converters, IEEE IES Power Electronics Technical Committee.</li>
+              <li>Full Member (MEEC), European Energy Centre.</li>
+              <li>Research visits and collaborations across USA, Germany, Malaysia, and UAE.</li>
             </ul>`
         }
       ]
     },
     grants: {
-      title: "Grants & Funding",
-      kicker: "Sponsored Research",
-      lead: "Funded projects from government, industry, and international sources.",
+      title: "Grants/Fund",
+      kicker: "Sponsored and Funded Research",
+      lead: "Funded projects from government, institute, industry, and international research center sources as recorded in the latest CV.",
       sections: [
         {
           kicker: "Funded Projects",
-          title: "Key Grants",
+          title: "Projects and grants",
           body: `
-            <div class="table-wrap"><table><thead><tr><th>Project</th><th>Agency</th><th>Amount</th></tr></thead><tbody>
-              <tr><td>Power Semiconductor Characterization Circuit</td><td>DST, Govt. of India</td><td>₹44.7 Lakhs</td></tr>
-              <tr><td>Solar PV Capacitor Clamped Boost Inverter</td><td>MSME, Govt. of India</td><td>₹15 Lakhs</td></tr>
-              <tr><td>EV Switched Reluctance Motor Drive</td><td>MNNIT</td><td>₹5 Lakhs</td></tr>
-              <tr><td>Energy Efficiency & Hybrid Storage</td><td>American Univ. of Sharjah, UAE</td><td>₹38.5 Lakhs</td></tr>
-              <tr><td>Solar Power Generation Boost Inverter</td><td>GAIL India Ltd.</td><td>₹140 Lakhs</td></tr>
-              <tr><td>Capacitor Clamped Boost Inverter Incubation</td><td>TIDES, IIT Roorkee</td><td>₹22.8 Lakhs</td></tr>
-              <tr><td>Single Stage Inverter for Solar PV</td><td>IUSSTF, Govt. of India</td><td>₹10.4 Lakhs</td></tr>
-              <tr><td>Testing Circuit for Power Device Characterization</td><td>Measure India Corp.</td><td>₹3 Lakhs</td></tr>
+            <div class="table-wrap"><table><thead><tr><th>Project</th><th>Agency/Scheme</th><th>Cost</th><th>Tenure</th></tr></thead><tbody>
+              <tr><td>Design of low cost and highly efficient testing circuit for power semiconductor device characterization</td><td>DST, Government of India</td><td>Rs. 44.7 lakhs</td><td>2022-25</td></tr>
+              <tr><td>Capacitor Clamped Boost Inverter for on-grid Solar PV Applications</td><td>MSME, Government of India</td><td>Rs. 15 lakhs</td><td>2022-23</td></tr>
+              <tr><td>High Performance Switched Reluctance Motor Drive for EV Applications</td><td>R&C Department, MNNIT</td><td>Rs. 5 lakhs</td><td>2023-24</td></tr>
+              <tr><td>Innovative Research in Energy Efficiency and Hybrid Energy-Storage Systems</td><td>Renewable Energy Research Center, American University of Sharjah, UAE</td><td>Rs. 38.5 lakhs</td><td>2019-20</td></tr>
+              <tr><td>Capacitor Clamped Boost Inverter for Distributed Power Generation using Renewable Energy Sources</td><td>GAIL Phank Scheme, GAIL India Ltd.</td><td>Rs. 140 lakhs</td><td>2019-2021</td></tr>
+              <tr><td>Capacitor Clamped Boost Inverter for Solar Power Generation</td><td>TIDES Business Incubator, IIT Roorkee</td><td>Rs. 80,000 prototyping grant plus incubation facilities worth Rs. 22 lakhs</td><td>Aug 2017 - Aug 2020</td></tr>
+              <tr><td>Single Stage Inverter for Solar PV System</td><td>IUSSTF, Government of India</td><td>Rs. 10.4 lakhs</td><td>2016</td></tr>
+              <tr><td>Design of low cost and highly efficient testing circuit for power semiconductor device characterization</td><td>Measure India Corporation Private Limited</td><td>Rs. 3 lakhs</td><td>2022-23</td></tr>
             </tbody></table></div>`
         }
       ]
     },
     patents: {
       title: "Patents",
-      kicker: "Disclosures",
-      lead: "1 granted patent and 3 published disclosures in power electronics.",
+      kicker: "Granted and Published Disclosures",
+      lead: "One granted patent and three published/filed disclosures from power electronics converter and device characterization research.",
       sections: [
         {
           kicker: "Granted",
-          title: "Patents",
+          title: "Patent granted",
           body: `
             <div class="paper-list">
-              <article><h3>High Gain Non-Isolated Bi-Directional DC-DC Converter</h3><p>Raveendhra Dogga et al. Granted Nov 2021. Patent No: 418205.</p></article>
+              <article><h3>High Gain Non-Isolated Bi-Directional DC-DC Converter</h3><p>Raveendhra Dogga, Ravi Kumar KS, A Pandian, V. V. Sastry Vedula, Poojitha Rajana, Praveen Jugge. Granted on 09 November 2021. Patent No: 418205.</p></article>
             </div>`
         },
         {
-          kicker: "Published",
-          title: "Disclosures",
+          kicker: "Published / Filed",
+          title: "Patent disclosures",
           body: `
             <div class="paper-list">
-              <article><h3>Energy Re-Circulation Circuit for Device Characterisation</h3><p>Douglas C Hopkins and Dogga Raveendhra. Filed at NC State University.</p></article>
-              <article><h3>Novel Single-Stage Inverter</h3><p>Raveendhra Dogga and M. K. Pathak. Indian Patent Published.</p></article>
-              <article><h3>Capacitor Clamped Bidirectional DC-DC Converter</h3><p>Ravi Kumar KS, Raveendhra Dogga et al. Indian Patent Published.</p></article>
+              <article><h3>Energy Re-Circulation Circuit and Controls for Applications including Power Semiconductor Device Characterisation</h3><p>Douglas C Hopkins and Dogga Raveendhra. Filed at Office of Technology Commercialisation and New Ventures, NC State University. Ref. No: 17126.</p></article>
+              <article><h3>Novel Single-Stage Inverter</h3><p>Raveendhra Dogga and M. K. Pathak. Indian Patent. Application Number: 201641038706. Published.</p></article>
+              <article><h3>Novel Capacitor Clamped Bidirectional DC-DC Converter</h3><p>Ravi Kumar KS, Raveendhra Dogga, Nagesh Kumar, V. V. Sastry Vedula. Indian Patent. Application Number: 201641038706. Published.</p></article>
             </div>`
         }
       ]
     },
     publications: {
       title: "Publications",
-      kicker: "Journals & Conferences",
-      lead: "605 citations, h-index 14, i10-index 15. Includes 10 recent journals, 6 book chapters, and 37 conference proceedings.",
+      kicker: "Journals, Book Chapters, and Conferences",
+      lead: "Latest CV metrics: 605 citations, h-index 14, i10-index 15. The CV lists journal papers, patent disclosures, 6 book chapters, and 37 conference proceedings.",
       sections: [
         {
-          kicker: "Journals",
-          title: "Selected Papers",
+          kicker: "Journal Publications",
+          title: "Selected and latest journal work",
           body: `
             <div class="paper-list numbered">
-              <article><h3>Three-Phase Capacitor Clamped Boost Inverter</h3><p>IEEE JESTPE, 2018.</p></article>
-              <article><h3>Recent Trends in Solar PV Inverter Topologies</h3><p>Solar Energy, Elsevier, 2019.</p></article>
-              <article><h3>Supercapacitor Characterization Using Adaptive Stabilization</h3><p>IEEE OJIES, 2020.</p></article>
-              <article><h3>High DC-AC Gain Three-Phase Capacitor Clamped Boost Inverter</h3><p>Energies, 2022.</p></article>
-              <article><h3>State-of-the-Art Technologies of DC Micro Grid</h3><p>Energies, 2023.</p></article>
-              <article><h3>Impact of Parasitics on Dynamic Performance</h3><p>IET Power Electronics, 2025.</p></article>
-              <article><h3>Energy Management Using a Novel Multi Port Power Converter</h3><p>IEEE Access, 2025.</p></article>
-              <article><h3>Renewable Energy Integration Using a Four Port Converter</h3><p>Engineering Research Express, 2025.</p></article>
-              <article><h3>Transformer-Less DC-DC Converter for Fuel Cell EVs</h3><p>IEEE OJIES, Accepted.</p></article>
-              <article><h3>Neutralized CMV Inverter for EV Applications</h3><p>In communication.</p></article>
+              <article><h3>Three-Phase Capacitor Clamped Boost Inverter</h3><p>D. Raveendhra and M. K. Pathak, IEEE Journal of Emerging and Selected Topics in Power Electronics, 2018. DOI: 10.1109/JESTPE.2018.2873154.</p></article>
+              <article><h3>Recent Trends in Solar PV Inverter Topologies</h3><p>Raveendhra Dogga and M. K. Pathak, Solar Energy, Elsevier, 2019. DOI: 10.1016/j.solener.2019.02.065.</p></article>
+              <article><h3>Supercapacitor Characterization Using Universal Adaptive Stabilization and Optimization</h3><p>S. Mukhopadhyay, R. Dhaouadi, M. Takrouri and R. Dogga, IEEE Open Journal of the Industrial Electronics Society, 2020. DOI: 10.1109/OJIES.2020.3008339.</p></article>
+              <article><h3>Analysis and Operation of High DC-AC Gain Three-Phase Capacitor Clamped Boost Inverter</h3><p>D. Raveendhra et al., Energies, 2022. DOI: 10.3390/en15082955.</p></article>
+              <article><h3>State-of-the-Art Technologies of DC Micro Grid with Hybrid Energy Storage Systems</h3><p>Dogga Raveendhra et al., Energies, 2023. DOI: 10.3390/en16020923.</p></article>
+              <article><h3>Impact of Parasitics on the Dynamic Performance of Capacitor Clamped Bidirectional DC-DC Converter</h3><p>Raveendhra D. et al., IET Power Electronics, 2025. DOI: 10.1049/pel2.70059.</p></article>
+              <article><h3>Extraction and Energy Management of Solar PV, Fuel Cell, and Battery Systems Using a Novel Multi Port Power Converter</h3><p>G. Nagesh, D. Raveendhra et al., IEEE Access, 2025. DOI: 10.1109/ACCESS.2025.3570190.</p></article>
+              <article><h3>Integration of Renewable Energy Sources with Energy Storage Devices Using a Novel Four Port Converter</h3><p>G. Nagesh, D. Raveendhra et al., Engineering Research Express, 2025. DOI: 10.1088/2631-8695/ade224.</p></article>
+              <article><h3>High Voltage Gain Transformer-Less DC-DC Converter for Fuel Cell Electric Vehicles</h3><p>Guguloth Nagesh, Dogga Raveendhra et al., IEEE Open Journal of the Industrial Electronics Society. Accepted.</p></article>
+              <article><h3>Neutralized CMV Inverter for Electrical Vehicle Applications</h3><p>Dogga Raveendhra, Douglas C Hopkins, Utkarsh Mehrotra, Hady H. Fayek. In communication.</p></article>
             </div>`
         },
         {
           kicker: "Book Chapters",
-          title: "Contributions",
+          title: "Book chapters and edited-volume contributions",
           body: `
             <ul class="feature-list compact">
-              <li>Common Mode Voltage in ZSI based Motor Drive for EVs.</li>
-              <li>Single Stage Power Conditioning Unit for Solar Powered Supply.</li>
-              <li>FPGA Controlled Power Conditioning System for Solar PV (Springer).</li>
-              <li>Quantification of Voltage Unbalance Conditions (Springer).</li>
-              <li>FPGA based controller for Single-Phase Matrix Converter.</li>
-              <li>Hybridization Strategies for Hydrogen Fuel Cell EVs (Taylor & Francis).</li>
+              <li>Effects of Common Mode Voltage in ZSI based Induction Motor Drive for EV applications.</li>
+              <li>Single Stage Power Conditioning Unit for Battery Assisted, Solar Powered Remote Area Power Supply.</li>
+              <li>FPGA Controlled Power Conditioning System for Solar PV Fed PMDC Motor, Springer Lecture Notes in Electrical Engineering.</li>
+              <li>Quantification of Voltage Unbalance Conditions, Springer Lecture Notes in Electrical Engineering.</li>
+              <li>Simulation-based study of FPGA based controller for Single-Phase Matrix Converter for different types of loads.</li>
+              <li>A Review on Hybridization and Energy Management Strategies for Hydrogen based Fuel Cell Electric Vehicle Applications, Taylor & Francis.</li>
             </ul>`
         },
         {
-          kicker: "Conferences",
-          title: "Recent Proceedings (2024-2025)",
+          kicker: "Recent Conference Proceedings",
+          title: "2024-2025 conference work from the latest CV",
           body: `
             <div class="paper-list">
-              <article><h3>Robust Control Design for Plugin EVs</h3><p>iTEC India 2025.</p></article>
-              <article><h3>Robust Controller for On-Board Charger</h3><p>STPEC 2025.</p></article>
-              <article><h3>Performance Investigation of High-Power Devices</h3><p>STPEC 2025.</p></article>
-              <article><h3>High Performance Solar Powered EV Charger</h3><p>IEEE SeFeT 2024.</p></article>
-              <article><h3>EV Onboard Charger for Grid Resilience</h3><p>IEEE SeFeT 2024.</p></article>
-              <article><h3>Characterization Circuit for Power Devices</h3><p>IEEE SeFeT 2024.</p></article>
+              <article><h3>Higher Order Sliding Robust Control Design for Single-Stage Plugin Electric Vehicle</h3><p>Mohammad Asif Ali, Aman Keshri, Dogga Raveendhra, BL Narasimha Raju. iTEC India 2025, Pune. Accepted.</p></article>
+              <article><h3>Robust Controller for Single-Stage Isolated Power Conditioning Unit On-Board Charger</h3><p>Mohammad Asif Ali, Aman Keshri, Dogga Raveendhra, Suneel Raju Pendem, BL Narasimha Raju and Pradyumn Chaturvedi. STPEC 2025, Goa. Accepted.</p></article>
+              <article><h3>Performance Investigation and Characterization of High-Power Semiconductor Devices using ERSC</h3><p>Aman Keshari, Mohammad Asif Ali, Dogga Raveendhra, Suneel Raju Pendem, BL Narasimharaju. STPEC 2025, Goa. Accepted.</p></article>
+              <article><h3>High Performance Solar Powered EV Charger</h3><p>Abhinav Kumar Singh and Dogga Raveendhra. IEEE SeFeT 2024, Hyderabad.</p></article>
+              <article><h3>Robust Controller for EV Onboard Charger for Grid Resilience under Weak Grid Conditions</h3><p>Varun Sharma, Dogga Raveendhra, Souradip Dey. IEEE SeFeT 2024, Hyderabad.</p></article>
+              <article><h3>Development of Characterization Circuit for Power Semiconductor Devices</h3><p>Gyanendra Vaishya, Dheeraj Saini, Yugal Patidar, Dogga Raveendhra, BL Narasimha Raju, Praveen J. IEEE SeFeT 2024, Hyderabad.</p></article>
             </div>`
         }
       ]
     },
     projects: {
       title: "Projects",
-      kicker: "Hardware & Controls",
-      lead: "Converter hardware, EV power electronics, and characterization circuits.",
+      kicker: "Research Works and Product Development",
+      lead: "Converter hardware, controls, characterization circuits, solar PV power conditioning systems, and EV-oriented power electronics.",
       sections: [
         {
           kicker: "Research Works",
-          title: "Key Projects",
+          title: "Representative research projects",
           body: `
             <div class="card-grid">
-              <article><h3>LC Impedance Source Converter</h3><p>American University of Sharjah. Redesigned bidirectional DC-DC converter.</p></article>
-              <article><h3>Supercapacitor Characterization</h3><p>Parameter identification under EV profiles.</p></article>
-              <article><h3>Power Device Characterization</h3><p>NC State University energy recirculation circuit.</p></article>
-              <article><h3>Single-Stage Solar PV Converter</h3><p>IIT Roorkee inverter development.</p></article>
-              <article><h3>Transformerless Power Converters</h3><p>High-gain inverters for solar PV applications.</p></article>
-              <article><h3>Solar PV Power Generation</h3><p>FPGA controlled PV power conditioning systems.</p></article>
+              <article><h3>LC Impedance Source Bi-Directional Converter</h3><p>Renewable Energy Center, American University of Sharjah. Redesigned reduced-component bidirectional DC-DC converter with lower capacitor voltage stress, state-space modelling, simulation, and prototype comparison.</p></article>
+              <article><h3>Supercapacitor Characterization</h3><p>Adaptive stabilization and optimization based parameter identification for supercapacitor models under EV-like cyclic current and voltage profiles.</p></article>
+              <article><h3>Novel Testing Circuit for Power Electronic Device Characterization</h3><p>FREEDM Systems Center, NC State University. Energy recirculation circuit for high stress device testing using low power sources.</p></article>
+              <article><h3>Efficient Single-Stage Power Converter for Solar PV</h3><p>IIT Roorkee. Single-phase and three-phase capacitor clamped boost DC-AC inverter development with intrinsic boost capability and digital control.</p></article>
+              <article><h3>Improved Power Quality Transformerless Power Converters</h3><p>IIT Roorkee doctoral work on capacitor clamped high-gain transformerless inverters for solar PV applications, including simulation and 1200 W prototype validation.</p></article>
+              <article><h3>Development of Converter System for Solar PV Power Generation</h3><p>IIT Roorkee M.Tech work on FPGA controlled PV power conditioning systems using DC-DC boost conversion and diode clamped multilevel inverters.</p></article>
             </div>`
         },
         {
-          kicker: "Products",
-          title: "Hardware Developed",
+          kicker: "Products Developed",
+          title: "Hardware and converter products",
           body: `
             <ul class="feature-list">
-              <li>200 kW SiC-based Central Inverter.</li>
-              <li>Super Capacitor Characterization Circuit.</li>
               <li>Single Stage Capacitor Clamped Boost Inverter.</li>
-              <li>LC Bi-Directional DC-DC Converter.</li>
+              <li>Super Capacitor Characterization Circuit using SiC-based Power Converter.</li>
+              <li>200 kW SiC-based Central Inverter.</li>
+              <li>LC Bi-Directional DC-DC Converter for solar applications.</li>
             </ul>`
         },
         {
           kicker: "Research Areas",
-          title: "Active themes",
+          title: "Active project themes",
           body: `
             <div class="tag-cloud">
-              <span>GaN LED Drivers</span><span>EV Chargers</span><span>LLC Converters</span><span>Solar PV</span><span>FPGA Control</span><span>Wide Band-Gap Testing</span><span>Hybrid Storage</span>
+              <span>GaN LED Drivers</span><span>On-board EV Chargers</span><span>LLC Resonant DC-DC Converters</span><span>Solar PV Power Conditioning Units</span><span>High Gain Converters</span><span>FPGA Controlled Converters</span><span>Wide Band-Gap Device Testing</span><span>Hybrid Energy Storage Systems</span>
             </div>`
         }
       ]
     },
     awards: {
       title: "Awards",
-      kicker: "Recognitions",
-      lead: "Major academic distinctions and honors.",
+      kicker: "Awards and Honoured Positions",
+      lead: "Recognitions, invited roles, board memberships, resource person assignments, and major academic distinctions from the latest CV.",
       sections: [
         {
-          kicker: "Roles",
-          title: "Recent Honors",
+          kicker: "Latest CV Entries",
+          title: "2025-2024 honours and invited roles",
           body: `
-            <div class="table-wrap"><table><thead><tr><th>Role</th><th>Institution</th><th>Year</th></tr></thead><tbody>
-              <tr><td>Member Board of Studies</td><td>KL University</td><td>2025</td></tr>
-              <tr><td>Resource Person</td><td>AICTE-ATAL FDP, GNIT</td><td>2025</td></tr>
-              <tr><td>Resource Person</td><td>Vel Tech Institute</td><td>2025</td></tr>
-              <tr><td>Resource Person</td><td>BVRIT Hyderabad</td><td>2025</td></tr>
-              <tr><td>Speaker</td><td>VIT Bhimavaram</td><td>2025</td></tr>
-              <tr><td>Expert Talk</td><td>NIT Warangal</td><td>2025</td></tr>
-              <tr><td>Resource Person</td><td>NIT Patna</td><td>2025</td></tr>
-              <tr><td>DCC Sub-Committee Member</td><td>Telecommunication Eng. Center</td><td>2024</td></tr>
-              <tr><td>Resource Person</td><td>NIT Rourkela</td><td>2024</td></tr>
-              <tr><td>TPC Chair</td><td>SCES</td><td>2024</td></tr>
+            <div class="table-wrap"><table><thead><tr><th>Role / Honour</th><th>Awarded / Honoured By</th><th>Year</th></tr></thead><tbody>
+              <tr><td>Member Board of Studies (BoS)</td><td>KL University</td><td>Dec 2025</td></tr>
+              <tr><td>Resource Person</td><td>AICTE-ATAL FDP on Advanced Technologies and AI/ML Integration in Microgrids and Electric Vehicles, GNIT</td><td>Dec 2025</td></tr>
+              <tr><td>Resource Person</td><td>FDP on Intelligent Power Electronics and Cyber-Physical Energy Systems for a Sustainable Future, Vel Tech</td><td>Nov 2025</td></tr>
+              <tr><td>Resource Person</td><td>AEVAMSF FDP at BVRIT Hyderabad and NIT Warangal</td><td>July 2025</td></tr>
+              <tr><td>Speaker</td><td>AICTE ATAL FDP on Advanced Energy Conversion Technologies and Applications, VIT Bhimavaram</td><td>Aug 2025</td></tr>
+              <tr><td>Expert Talk</td><td>Online FDP on Power Electronics Technology for Self-Reliant and Viksit Bharat, NIT Warangal</td><td>Feb 2025</td></tr>
+              <tr><td>Resource Person</td><td>FDP on Advanced Power Conversion Systems and AI for Electric Vehicles, NIT Patna</td><td>May 2025</td></tr>
+              <tr><td>DCC Sub-Committee Member</td><td>Quantum Technology Division, Telecommunication Engineering Center</td><td>2024</td></tr>
+              <tr><td>Resource Person</td><td>Sustainable Development: Intersection of Green Energy and eMobility, NIT Rourkela</td><td>2024</td></tr>
+              <tr><td>TPC Chair / Session Chair</td><td>SCES 2024</td><td>2024</td></tr>
             </tbody></table></div>`
         },
         {
-          kicker: "Awards",
-          title: "Key Recognitions",
+          kicker: "Major Recognitions",
+          title: "Research and innovation awards",
           body: `
             <ul class="feature-list">
-              <li>Excellence in Doctoral Research Award, IIT Roorkee, 2020.</li>
-              <li>Best Innovation Award, Zunik Energies, 2019.</li>
-              <li>Most Promising Innovation Award (1st Prize), IKMC 2018.</li>
+              <li>Excellence in Doctoral Research Award for best Ph.D. work, IIT Roorkee, 2020.</li>
+              <li>Best Innovation Award, Zunik Energies Pvt. Ltd., 2019.</li>
+              <li>Albert Nelson Marquis Lifetime Achievement Award, Marquis Who's Who, USA, 2018.</li>
+              <li>Who's Who in the World 2019 and 2018, Marquis, USA.</li>
+              <li>Delegate for India-Italy Summit, DST-CII, New Delhi, 2018.</li>
+              <li>Most Promising Innovation Award, 1st Prize, IKMC 2018 Start-up Exhibition.</li>
               <li>Judges Choice Award, TIDES-IITRHF, 2017.</li>
               <li>Bhaskara Advanced Solar Energy Fellowship, DST India, 2016.</li>
-              <li>Delegate for India-Italy Summit, DST-CII, 2018.</li>
+              <li>MHRD Scholarships for M.Tech and Ph.D.</li>
             </ul>`
         }
       ]
     },
     invited: {
       title: "Invited Sessions",
-      kicker: "Talks & Seminars",
-      lead: "Engagements across EVs, renewable energy, and microgrids.",
+      kicker: "Talks, FDPs, Seminars, and Resource Person Engagements",
+      lead: "Invited academic sessions and professional engagements across power electronics, EVs, renewable energy, AI/ML tools, microgrids, and advanced energy conversion.",
       sections: [
         {
-          kicker: "Recent",
-          title: "Key Engagements",
+          kicker: "Recent Invited Sessions",
+          title: "2025-2023 engagements",
           body: `
             <div class="card-grid">
-              <article><h3>AI/ML Integration in Microgrids and EVs</h3><p>AICTE-ATAL FDP, GNIT, 2025.</p></article>
-              <article><h3>Intelligent Power Electronics</h3><p>Vel Tech, 2025.</p></article>
-              <article><h3>Electric Vehicles and Autonomous Mobility</h3><p>BVRIT Hyderabad, 2025.</p></article>
-              <article><h3>Advanced Energy Conversion</h3><p>VIT Bhimavaram, 2025.</p></article>
-              <article><h3>Power Electronics for Viksit Bharat</h3><p>NIT Warangal, 2025.</p></article>
-              <article><h3>Power Conversion Systems and AI for EVs</h3><p>NIT Patna, 2025.</p></article>
-              <article><h3>Renewable Energy in Distributed Systems</h3><p>NIT Sikkim, 2025.</p></article>
-              <article><h3>AI and ML Tools for Electrical Engineering</h3><p>Gayatri Vidya Parishad, 2024.</p></article>
-              <article><h3>Design-Thinking EV Mobility</h3><p>KSRCT, 2024.</p></article>
-              <article><h3>Dynamic Systems Seminar</h3><p>Skolkovo Institute of Science, Russia, 2023.</p></article>
+              <article><h3>Advanced Technologies and AI/ML Integration in Microgrids and EVs</h3><p>Resource Person, AICTE-ATAL FDP, Guru Nanak Institute of Technology, Dec 2025.</p></article>
+              <article><h3>Intelligent Power Electronics and Cyber-Physical Energy Systems</h3><p>Resource Person, Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology, Nov 2025.</p></article>
+              <article><h3>Advancements in Electric Vehicles and Autonomous Mobility</h3><p>Resource Person, BVRIT Hyderabad and NIT Warangal, July 2025.</p></article>
+              <article><h3>Emerging Trends in Advanced Energy Conversion</h3><p>Speaker, AICTE ATAL FDP, VIT Bhimavaram, Aug 2025.</p></article>
+              <article><h3>Power Electronics Technology for Self-Reliant and Viksit Bharat</h3><p>Expert Talk, NIT Warangal, Feb 2025.</p></article>
+              <article><h3>Advanced Power Conversion Systems and AI for EVs</h3><p>Resource Person, NIT Patna, May 2025.</p></article>
+              <article><h3>Renewable Energy Sources in EV and Distributed Generation Systems</h3><p>Expert Lecture, MSME sponsored Advanced-ESDP Programme, NIT Sikkim, Feb 2025.</p></article>
+              <article><h3>AI and ML Tools for Material Science and Electrical Engineering</h3><p>Resource Person, Gayatri Vidya Parishad College of Engineering, Vizag, 2024.</p></article>
+              <article><h3>Electrifying Experiences: Design-Thinking the Future of EV Mobility</h3><p>National Webinar Resource Person, K. S. Rangasamy College of Technology, 2024.</p></article>
+              <article><h3>Machine Learning, Computer Vision, and Dynamic Systems Group Seminar</h3><p>Seminar at Skolkovo Institute of Science and Technology, Russia, 2023.</p></article>
             </div>`
         },
         {
-          kicker: "Talks",
-          title: "International Invitations",
+          kicker: "Invited Talks",
+          title: "International invitations recorded in the CV",
           body: `
             <ul class="feature-list compact">
-              <li>INAIT Conference 2019, University of Cambridge, UK.</li>
-              <li>7th Annual World Congress of Advanced Materials 2018, China.</li>
-              <li>MIC-Electrical 2014, Athens, Greece.</li>
-              <li>1st Int. Symposium on Energy Challenges and Mechanics, Scotland, 2014.</li>
-              <li>3rd Int. Symposium on Energy Challenges and Mechanics, Scotland, 2015.</li>
-              <li>World Congress of Smart Energy 2017, China.</li>
-              <li>6th Annual World Congress of Advanced Materials 2017, China.</li>
+              <li>Speaker invitation for INAIT Conference 2019, University of Cambridge, United Kingdom.</li>
+              <li>Speech invitation from 7th Annual World Congress of Advanced Materials 2018, Xiamen, China.</li>
+              <li>Invited paper opportunity at MIC-Electrical 2014, Athens, Greece.</li>
+              <li>Speech invitation at 1st International Symposium on Energy Challenges and Mechanics, Aberdeen, Scotland, 2014.</li>
+              <li>Renewable energy session invitation at 3rd International Symposium on Energy Challenges and Mechanics, Aberdeen, Scotland, 2015.</li>
+              <li>World Congress of Smart Energy 2017, Wuxi, China, session on solar PV technologies.</li>
+              <li>6th Annual World Congress of Advanced Materials 2017, Xi'an, China, photovoltaics and solar energy track.</li>
             </ul>`
         }
       ]
     },
     editorial: {
-      title: "Editorial Roles",
-      kicker: "Service",
-      lead: "Peer review, editorial boards, and program committees.",
+      title: "Editorial/Reviewer Positions",
+      kicker: "Editorial Service, Peer Review, and FDP Coordination",
+      lead: "Reviewer, editorial, technical program committee, and faculty development program contributions listed in the latest CV.",
       sections: [
         {
-          kicker: "Leadership",
-          title: "Program Organization",
+          kicker: "FDPs Organized / Conducted",
+          title: "Program leadership",
           body: `
             <ul class="feature-list">
-              <li>TPC Chair & Session Chair, SCES 2024.</li>
+              <li>TPC Chair, SCES 2024.</li>
+              <li>Session Chair, SCES 2024.</li>
               <li>Tutorial Chair, SeFeT 2022.</li>
-              <li>Convener, MAS 2024, MNNIT.</li>
-              <li>Coordinator, FDP on Control of Advanced Power Converters (NITW).</li>
-              <li>Coordinator, FDPs on Power Electronics for E-Transportation.</li>
-              <li>Co-Coordinator, AICTE FDP on Sustainable Tech for EVs.</li>
+              <li>Convener, Multi-Agent Systems and Distributed Control (MAS 2024), Department of Electrical Engineering, MNNIT.</li>
+              <li>Coordinator, Online FDP on Modelling, Simulation and Control of Advanced Power Converters, E&ICT Academy and NIT Warangal with GRIET.</li>
+              <li>Coordinator, FDPs on Power Electronics, Energy Storage and Renewable Technologies for E-Transportation in India.</li>
+              <li>Co-Coordinator, AICTE sponsored two-week FDP on Sustainable Technologies for Electric Transportation Systems.</li>
             </ul>`
         },
         {
-          kicker: "Reviewer",
-          title: "Journals",
+          kicker: "Reviewer for Journals",
+          title: "Journal review service",
           body: `
             <div class="tag-cloud">
-              <span>IEEE TIE</span><span>IEEE JESTPE</span><span>Solar Energy</span><span>IET Power Electronics</span><span>IEEE Access</span><span>IET GTD</span><span>IET RPG</span><span>IJGE</span>
+              <span>IEEE Transactions on Industrial Electronics</span><span>IEEE JESTPE</span><span>International Journal of Electrical Power and Energy Systems</span><span>Solar Energy</span><span>IET Power Electronics</span><span>IET GTD</span><span>IET Renewable Power Generation</span><span>IEEE Access</span><span>IETE Journal of Research</span><span>International Journal of Green Energy</span><span>Mathematics and Computers in Simulation</span><span>IJEEPS</span>
             </div>`
         },
         {
-          kicker: "Editorial",
-          title: "Committees",
+          kicker: "Editorial and TPC",
+          title: "Editorial and program committee roles",
           body: `
             <ul class="feature-list">
-              <li>Associate Editor, Int. Journal of Applied Power Engineering (IJAPE).</li>
-              <li>Lead Guest Editor Proposal, Science Publishing Group.</li>
-              <li>TPC Member, IEEE STPEC 2020.</li>
-              <li>TPC roles for ICCMERA, ICSoEB, ICCVIA, CENCON, TENSYMP.</li>
-              <li>Reviewer for 25+ IEEE and international conferences.</li>
+              <li>Associate Editor for International Journal of Applied Power Engineering (IJAPE).</li>
+              <li>Invitation from Science Publishing Group, New York, to propose a special issue as Lead Guest Editor.</li>
+              <li>Technical Program Committee member for IEEE STPEC 2020 at VNIT Nagpur.</li>
+              <li>TPC roles for ICCMERA, ICSoEB, IEEE Intelligent Energy and Power Systems, ICCVIA, CENCON, SIRS, TENSYMP, and related conferences.</li>
+              <li>Reviewer for more than 25 IEEE and international conferences, including SCOReD, ISIE, PEOCO, PECon, TICPE, EECSI, CENCON, and ITEC.</li>
             </ul>`
         }
       ]
     },
     completeCv: {
       title: "Complete CV",
-      kicker: "Archive",
-      lead: "Official CV PDF document.",
+      kicker: "Full CV Archive",
+      lead: "A complete GitHub Pages archive of the latest local CV source, including the embedded official PDF and a searchable transcript of the public academic, professional, research, publication, project, award, reviewer, and guidance data.",
+      stats: [
+        ["745", "DOCX text paragraphs extracted"],
+        ["705", "Public CV transcript lines shown"],
+        ["PDF", "Original CV embedded"],
+        ["8", "Major CV transcript groups"]
+      ],
       sections: [
         {
-          kicker: "Source",
-          title: "Official CV",
+          kicker: "Original Source",
+          title: "Official CV PDF",
           body: `
             <div class="cv-source-actions">
               <a class="button primary" href="assets/dr-dogga-raveendhra-cv.pdf" target="_blank" rel="noopener">Open CV PDF</a>
               <a class="button secondary" href="assets/dr-dogga-raveendhra-cv.pdf" download>Download CV PDF</a>
             </div>
-            <iframe class="cv-pdf-frame" src="assets/dr-dogga-raveendhra-cv.pdf#view=FitH" title="Dr. Dogga Raveendhra CV"></iframe>`
+            <iframe class="cv-pdf-frame" src="assets/dr-dogga-raveendhra-cv.pdf#view=FitH" title="Dr. Dogga Raveendhra complete CV PDF"></iframe>`
         }
       ]
     },
     faq: {
-      title: "FAQ",
-      kicker: "Quick Answers",
-      lead: "Common queries for collaborators and students.",
+      title: "Frequently Asked Questions",
+      kicker: "FAQ",
+      lead: "Quick answers for collaborators, students, and academic visitors.",
       sections: [
         {
           kicker: "Questions",
-          title: "Queries",
+          title: "Common queries",
           body: `
             <div class="faq-list">
-              <details open><summary>What are Dr. Raveendhra's main research areas?</summary><p>EV chargers, motor drives, solar PV, DC microgrids, and wide band-gap devices.</p></details>
-              <details><summary>What is his current affiliation?</summary><p>Assistant Professor, Electrical Engineering Department, NIT Warangal.</p></details>
-              <details><summary>Is he available for invited talks?</summary><p>Yes, contact via dravi@nitw.ac.in.</p></details>
-              <details><summary>Does he supervise student projects?</summary><p>Yes. 8 M.Tech projects and 25 B.Tech projects across NITW, MNNIT, and others.</p></details>
-              <details><summary>What tools does his lab use?</summary><p>MATLAB, Simulink, PSIM, Altium, dSPACE, FPGA controllers, and TI DSP.</p></details>
+              <details open><summary>What are Dr. Raveendhra's main research areas?</summary><p>Power electronic converters, EV on-board chargers, motor drives, solar PV power conditioning, DC microgrids, hybrid energy storage systems, wide band-gap devices, and FPGA/DSP controlled converters.</p></details>
+              <details><summary>What is the latest affiliation listed in the CV?</summary><p>The latest CV header lists Dr. Raveendhra as Assistant Professor, Electrical Engineering Department, NIT Warangal.</p></details>
+              <details><summary>Can I contact him for invited talks or FDP sessions?</summary><p>Yes. The CV records many resource person, expert talk, keynote, FDP, and invited session engagements. Use dravi@nitw.ac.in for academic contact.</p></details>
+              <details><summary>Does he supervise student projects?</summary><p>Yes. The CV records 8 guided M.Tech projects, 25 B.Tech academic projects, and recent dissertations in EV chargers, wide band-gap device characterization, renewable energy integration, isolated DC-DC converters, and DC microgrids.</p></details>
+              <details><summary>Where can I download the detailed CV?</summary><p>Use the Download CV button in the header or footer. The web version links to the latest CV PDF available in this website folder.</p></details>
+              <details><summary>Which tools and platforms does his work use?</summary><p>MATLAB, Simulink, PSIM, Altium, Eagle, LabVIEW, dSPACE, Xilinx System Generator, FPGA controllers, TI DSP controllers, Arduino platforms, and laboratory power electronics test equipment.</p></details>
             </div>`
         }
       ]
