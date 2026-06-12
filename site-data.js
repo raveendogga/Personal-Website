@@ -3,7 +3,7 @@ window.SITE_DATA = {
     { key: "home", label: "Home", href: "index.html" },
     { key: "education", label: "Education", href: "education.html" },
     { key: "work", label: "Work Experience", href: "work-experience.html" },
-    { key: "team", label: "Team/Collaborations", href: "team-collaborations.html" },
+    { key: "team", label: "Team/Colloborations", href: "team-collaborations.html" },
     { key: "grants", label: "Grants/Fund", href: "grants-fund.html" },
     { key: "patents", label: "Patents", href: "patents.html" },
     { key: "publications", label: "Publications", href: "publications.html" },
@@ -11,7 +11,6 @@ window.SITE_DATA = {
     { key: "awards", label: "Awards", href: "awards.html" },
     { key: "invited", label: "Invited Sessions", href: "invited-sessions.html" },
     { key: "editorial", label: "Editorial/Reviewer Positions", href: "editorial-reviewer-positions.html" },
-    { key: "completeCv", label: "Complete CV", href: "complete-cv.html" },
     { key: "faq", label: "FAQ", href: "faq.html" }
   ],
   contact: {
