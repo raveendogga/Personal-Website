@@ -579,3 +579,14 @@ tr:last-child td {
   align-items: center;
   gap: 16px;
 }
+
+
+.highlight-award {
+  color: #ff9800;
+  font-weight: 700;
+  background-color: #fff3e0;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 8px;
+}
