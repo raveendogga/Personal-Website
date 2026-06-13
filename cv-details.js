@@ -1,60 +1,7 @@
 window.CV_DETAIL_SECTIONS = {
   home: [],
 
-  education: [
-    {
-      kicker: "Detailed Education",
-      title: "Degrees, international training, and technical platforms",
-      body: `
-        <div class="detail-grid">
-          <article>
-            <h3>Doctoral work</h3>
-            <ul class="detail-list">
-              <li>Ph.D., Electrical Engineering Department, Indian Institute of Technology Roorkee.</li>
-              <li>Thesis: Improved Power Quality Transformerless Power Converters for Solar PV Applications.</li>
-              <li>Completed in 2019 with thesis grade A.</li>
-              <li>Recognized with the Excellence in Doctoral Research Award for best Ph.D. work.</li>
-            </ul>
-          </article>
-          <article>
-            <h3>Postgraduate study</h3>
-            <ul class="detail-list">
-              <li>M.Tech., Electrical Drives and Power Electronics, Indian Institute of Technology Roorkee.</li>
-              <li>Dissertation: Development of Converter System for Solar PV Power Generation.</li>
-              <li>Completed in 2012 with 88.33%.</li>
-              <li>Supported by MHRD scholarship during 2010-2012.</li>
-            </ul>
-          </article>
-          <article>
-            <h3>Undergraduate study</h3>
-            <ul class="detail-list">
-              <li>B.Tech., Electrical and Electronics Engineering.</li>
-              <li>University: JNTU Kakinada.</li>
-              <li>Completed in 2009 with 65.63%.</li>
-            </ul>
-          </article>
-          <article>
-            <h3>Technical qualifications</h3>
-            <ul class="detail-list">
-              <li>Languages: C, MATLAB, VHDL.</li>
-              <li>Software: Xilinx System Generator, Altium, Eagle, MULTISIM, MATLAB, LabVIEW, PSIM, dSPACE ControlDesk, MS Office, Arduino IDE, and CCStudio.</li>
-              <li>Operating systems: Windows and Ubuntu.</li>
-              <li>Hardware controllers: Spartan-3E/3A FPGA, TMS320F2812 DSP, dSPACE, analog controllers, Arduino Due/Mega/Uno, and TI Piccolo LaunchPad.</li>
-              <li>Hardware designed: capacitor clamped boost inverter, multilevel inverter, and DC-DC converter.</li>
-            </ul>
-          </article>
-        </div>
-        <div class="accordion-list">
-          <details>
-            <summary>International research training details</summary>
-            <ul class="detail-list">
-              <li>American University of Sharjah, UAE: hybrid energy storage systems for EVs, supercapacitor characterization, LC bidirectional converter work, common-mode voltage elimination, wireless power supply for drones, loss-thermal modelling, inverter ripple analysis, and field-oriented control for 400 V IPM traction drives.</li>
-              <li>FREEDM Systems Center, NC State University, USA: solar PV converter design, power semiconductor characterization circuit, IGBT gate drive, DESAT and thermal protection, sliding mode controller for solar powered inverters, DC bus voltage prediction for THD improvement, and input phase open-fault detection.</li>
-            </ul>
-          </details>
-        </div>`
-    }
-  ],
+  education: [],
 
   work: [
     {
