@@ -109,6 +109,19 @@ window.SITE_DATA = {
                 Thesis grade: A.<br>
                 <strong class="highlight-award">Excellence in Doctoral Research Award</strong></p>
               </article>
+              <article>
+                <span>2012</span>
+                <h3>M.Tech., Electrical Drives and Power Electronics</h3>
+                <p>Indian Institute of Technology Roorkee.<br>
+                Dissertation: Development of Converter System for Solar PV Power Generation.<br>
+                Score: 88.33%.</p>
+              </article>
+              <article>
+                <span>2009</span>
+                <h3>B.Tech., Electrical and Electronics Engineering</h3>
+                <p>JNTU Kakinada.<br>
+                Score: 65.63%.</p>
+              </article>
             </div>`
         },
         {
