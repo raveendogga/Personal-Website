@@ -614,3 +614,8 @@ tr:last-child td {
   color: var(--white);
   border-color: var(--maroon);
 }
+
+.label-highlight {
+  color: var(--maroon);
+  font-weight: 600;
+}

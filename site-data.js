@@ -104,23 +104,23 @@ window.SITE_DATA = {
               <article>
                 <span>2019</span>
                 <h3>Ph.D., Electrical Engineering</h3>
-                <p>Indian Institute of Technology Roorkee.<br>
-                Thesis: Improved Power Quality Transformerless Power Converters for Solar PV Applications.<br>
-                Thesis grade: A.<br>
+                <p><strong class="label-highlight">Institute:</strong> Indian Institute of Technology Roorkee.<br>
+                <strong class="label-highlight">Thesis:</strong> Improved Power Quality Transformerless Power Converters for Solar PV Applications.<br>
+                <strong class="label-highlight">Thesis grade:</strong> A.<br>
                 <strong class="highlight-award">Excellence in Doctoral Research Award</strong></p>
               </article>
               <article>
                 <span>2012</span>
                 <h3>M.Tech., Electrical Drives and Power Electronics</h3>
-                <p>Indian Institute of Technology Roorkee.<br>
-                Dissertation: Development of Converter System for Solar PV Power Generation.<br>
-                Score: 88.33%.</p>
+                <p><strong class="label-highlight">Institute:</strong> Indian Institute of Technology Roorkee.<br>
+                <strong class="label-highlight">Dissertation:</strong> Development of Converter System for Solar PV Power Generation.<br>
+                <strong class="label-highlight">Score:</strong> 88.33%.</p>
               </article>
               <article>
                 <span>2009</span>
                 <h3>B.Tech., Electrical and Electronics Engineering</h3>
-                <p>JNTU Kakinada.<br>
-                Score: 65.63%.</p>
+                <p><strong class="label-highlight">Institute:</strong> JNTU Kakinada.<br>
+                <strong class="label-highlight">Score:</strong> 65.63%.</p>
               </article>
             </div>`
         },
