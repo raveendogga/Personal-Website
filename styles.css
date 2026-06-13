@@ -538,226 +538,21 @@ tr:last-child td {
     padding: 30px 20px;
   }
 }
-/ *   I m p a c t   t e x t   f o r   c a r d s   * /  
- p . i m p a c t   {   f o n t - s i z e :   1 r e m ;   c o l o r :   v a r ( - - m a r o o n ) ;   f o n t - s t y l e :   i t a l i c ;   m a r g i n - t o p :   1 0 p x ;   }  
- / *   C T A   S e c t i o n   * /  
- . c t a - s e c t i o n   {   p a d d i n g :   6 0 p x   4 8 p x ;   b a c k g r o u n d - c o l o r :   v a r ( - - m a r o o n ) ;   c o l o r :   v a r ( - - w h i t e ) ;   t e x t - a l i g n :   c e n t e r ;   }  
- . c t a - s e c t i o n   . c t a - i n n e r   {   m a x - w i d t h :   8 0 0 p x ;   m a r g i n :   0   a u t o ;   }  
- . c t a - s e c t i o n   h 2   {   c o l o r :   v a r ( - - w h i t e ) ;   }  
- . c t a - s e c t i o n   p   {   c o l o r :   r g b a ( 2 5 5 , 2 5 5 , 2 5 5 , 0 . 9 ) ;   }  
- . c t a - s e c t i o n   . b u t t o n . p r i m a r y   {   b a c k g r o u n d - c o l o r :   v a r ( - - w h i t e ) ;   c o l o r :   v a r ( - - m a r o o n ) ;   b o r d e r - c o l o r :   v a r ( - - w h i t e ) ;   m a r g i n - t o p :   2 0 p x ;   }  
- . c t a - s e c t i o n   . b u t t o n . p r i m a r y : h o v e r   {   b a c k g r o u n d - c o l o r :   t r a n s p a r e n t ;   c o l o r :   v a r ( - - w h i t e ) ;   }  
- @ m e d i a   ( m a x - w i d t h :   7 6 8 p x )   {   . s i t e - h e a d e r   {   f l e x - d i r e c t i o n :   r o w ;   f l e x - w r a p :   w r a p ;   }   . s i t e - n a v   {   d i s p l a y :   n o n e ;   w i d t h :   1 0 0 % ;   f l e x - d i r e c t i o n :   c o l u m n ;   b a c k g r o u n d :   v a r ( - - w h i t e ) ;   p a d d i n g :   1 0 p x   0 ;   }   . s i t e - n a v . i s - o p e n   {   d i s p l a y :   f l e x ;   }   . s i t e - n a v   a   {   p a d d i n g :   1 5 p x   2 0 p x ;   b o r d e r - b o t t o m :   1 p x   s o l i d   # e e e ;   }   . s i t e - n a v   a : l a s t - c h i l d   {   b o r d e r - b o t t o m :   n o n e ;   }   }  
- 
-/* Additional Sub-Page Layouts */
 
-/* Lists */
-.feature-list {
-  display: grid;
+.about-copy p {
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+  color: var(--text-color);
+}
+
+.interest-card {
+  flex-direction: column;
   gap: 16px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  padding: 24px;
 }
 
-.feature-list.compact {
-  gap: 12px;
-}
-
-.feature-list li {
-  position: relative;
-  padding-left: 32px;
-  background: var(--white);
-  padding: 16px 20px 16px 45px;
-  border-radius: 8px;
-  border: 1px solid rgba(127,17,70, 0.2);
-  transition: all 0.2s ease;
-}
-
-.feature-list li:hover {
-  transform: translateX(5px);
-  box-shadow: 0 4px 6px rgba(0,0,0,0.02);
-  border-color: var(--maroon);
-}
-
-.feature-list li::before {
-  position: absolute;
-  top: 24px;
-  left: 20px;
-  width: 14px;
-  height: 3px;
-  background: var(--maroon);
-  content: "";
-  border-radius: 2px;
-}
-
-.tag-cloud {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-
-.tag-cloud span {
-  padding: 10px 18px;
-  border: 1px solid rgba(127,17,70, 0.2);
-  border-radius: 999px;
-  color: var(--maroon);
-  background: rgba(127,17,70, 0.05);
-  font-weight: 600;
-  font-size: 0.9rem;
-  transition: all 0.2s ease;
-}
-
-.tag-cloud span:hover {
-  background: var(--maroon);
-  color: var(--white);
-  transform: translateY(-2px);
-}
-
-/* Tables */
-.table-wrap {
-  overflow-x: auto;
-  border: 1px solid rgba(127,17,70, 0.2);
-  border-radius: 12px;
-  background: var(--white);
-  box-shadow: 0 4px 6px rgba(0,0,0,0.02);
-}
-
-table {
-  width: 100%;
-  min-width: 720px;
-  border-collapse: collapse;
-}
-
-th, td {
-  padding: 18px 20px;
-  border-bottom: 1px solid rgba(127,17,70, 0.2);
-  text-align: left;
-  vertical-align: top;
-}
-
-th {
-  color: var(--white);
-  background: var(--maroon);
-  font-size: 0.9rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-td {
-  color: #333;
-}
-
-tr:hover td {
-  background: #fdfbfb;
-}
-
-/* Paper List */
-.paper-list {
-  display: grid;
-  gap: 16px;
-}
-
-.paper-list.numbered {
-  counter-reset: papers;
-}
-
-.paper-list.numbered article {
-  position: relative;
-  padding-left: 70px;
-  counter-increment: papers;
-  background: var(--white);
-  padding-top: 24px; padding-right: 24px; padding-bottom: 24px;
-  border: 1px solid rgba(127,17,70, 0.2);
-  border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.02);
-}
-
-.paper-list.numbered article::before {
-  position: absolute;
-  top: 30px;
-  left: 24px;
+.interest-icon {
   width: 32px;
   height: 32px;
-  display: grid;
-  place-items: center;
-  background: rgba(127,17,70, 0.1);
-  color: var(--maroon);
-  border-radius: 50%;
-  font-weight: 700;
-  content: counter(papers);
+  object-fit: contain;
 }
-
-.paper-list article {
-  background: var(--white);
-  padding: 24px;
-  border: 1px solid rgba(127,17,70, 0.2);
-  border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.02);
-}
-
-.paper-list article h3 {
-  margin-bottom: 12px;
-}
-
-/* FAQ */
-.faq-list details {
-  border: 1px solid rgba(127,17,70, 0.2);
-  border-radius: 12px;
-  background: var(--white);
-  padding: 24px;
-  margin-bottom: 16px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.02);
-}
-
-.faq-list summary {
-  cursor: pointer;
-  color: var(--maroon);
-  font-weight: 700;
-  font-size: 1.1rem;
-}
-
-.faq-list summary:hover {
-  color: var(--maroon-light);
-}
-
-.faq-list p {
-  margin-top: 16px;
-  color: #333;
-}
-
-/* CV iframe */
-.cv-pdf-frame {
-  width: 100%;
-  min-height: 800px;
-  border: 1px solid rgba(127,17,70, 0.2);
-  border-radius: 12px;
-  background: var(--white);
-  box-shadow: 0 4px 6px rgba(0,0,0,0.02);
-  margin-top: 20px;
-}
-
-.cv-source-actions {
-  display: flex;
-  gap: 16px;
-  margin-bottom: 20px;
-}
-
- . a b o u t - c o p y   p   { 
-     m a r g i n - b o t t o m :   1 . 5 r e m ; 
-     l i n e - h e i g h t :   1 . 8 ; 
-     c o l o r :   v a r ( - - t e x t - c o l o r ) ; 
- }  
- 
- . i n t e r e s t - c a r d   { 
-     f l e x - d i r e c t i o n :   c o l u m n ; 
-     g a p :   1 6 p x ; 
-     p a d d i n g :   2 4 p x ; 
- } 
- . i n t e r e s t - i c o n   { 
-     w i d t h :   6 4 p x ; 
-     h e i g h t :   6 4 p x ; 
-     o b j e c t - f i t :   c o n t a i n ; 
- }  
- 
