@@ -62,31 +62,7 @@ window.CV_DETAIL_SECTIONS = {
 
   grants: [],
 
-  patents: [
-    {
-      kicker: "Patent Technology Areas",
-      title: "Converter and device-characterization innovations",
-      body: `
-        <div class="detail-grid">
-          <article>
-            <h3>Granted technology</h3>
-            <p>High gain non-isolated bidirectional DC-DC converter for energy storage and high-voltage-gain applications. Granted on 09 November 2021 as Patent No. 418205.</p>
-          </article>
-          <article>
-            <h3>US disclosure</h3>
-            <p>Energy recirculation circuit and controls for applications including power semiconductor device characterization, filed through NC State University technology commercialization channels.</p>
-          </article>
-          <article>
-            <h3>Solar PV inverter disclosure</h3>
-            <p>Novel single-stage inverter by Raveendhra Dogga and M. K. Pathak, Indian Patent Application No. 201641038706, published.</p>
-          </article>
-          <article>
-            <h3>Bidirectional converter disclosure</h3>
-            <p>Novel capacitor clamped bidirectional DC-DC converter by Ravi Kumar KS, Raveendhra Dogga, Nagesh Kumar, and V. V. Sastry Vedula, Indian Patent Application No. 201641038706, published.</p>
-          </article>
-        </div>`
-    }
-  ],
+  patents: [],
 
   publications: [
     {
