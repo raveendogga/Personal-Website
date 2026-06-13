@@ -1,56 +1,5 @@
 window.CV_DETAIL_SECTIONS = {
-  home: [
-    {
-      kicker: "Full CV Snapshot",
-      title: "Complete public profile details",
-      body: `
-        <div class="detail-grid">
-          <article>
-            <h3>Research identity</h3>
-            <ul class="detail-list">
-              <li>Assistant Professor, Electrical Engineering Department, NIT Warangal.</li>
-              <li>Ex-Senior Engineering Consultant, ALTEN GmbH, Germany.</li>
-              <li>Post-Doctoral Research Associate, Renewable Energy Research Center, American University of Sharjah.</li>
-              <li>Visiting Researcher, FREEDM Systems Center, North Carolina State University, USA.</li>
-              <li>Ph.D. from IIT Roorkee with Excellence in Doctoral Research Award.</li>
-              <li>M.Tech. in Electrical Drives and Power Electronics from IIT Roorkee.</li>
-            </ul>
-          </article>
-          <article>
-            <h3>Research interests</h3>
-            <ul class="detail-list">
-              <li>Applications and controls of power electronics in automotive, transportation, and renewable energy systems.</li>
-              <li>Dynamic modelling and control of power electronic converters and motor drives.</li>
-              <li>Applications of artificial intelligence in power systems and power electronics.</li>
-              <li>Wide band-gap device based power converters.</li>
-              <li>FPGA and DSP controllers for power electronics applications.</li>
-            </ul>
-          </article>
-          <article>
-            <h3>Ph.D. outcomes and recognition</h3>
-            <ul class="detail-list">
-              <li>Nominated by the Director, IIT Roorkee for Festival of Innovation and Entrepreneurship, Rashtrapati Bhavan, New Delhi.</li>
-              <li>Nominated by TIDES Business Incubator, IIT Roorkee for Destination Uttarakhand innovation exhibition.</li>
-              <li>Invited delegate for the CII-DST India-Italy Technology Summit at Taj Palace, New Delhi.</li>
-              <li>Invited to showcase innovation at FICCI 14th Higher Education Summit.</li>
-              <li>Selected for SLUSH 2018, Helsinki, Finland, funded by AP Innovation Society and Invest India.</li>
-            </ul>
-          </article>
-          <article>
-            <h3>Qualification highlights</h3>
-            <ul class="detail-list">
-              <li>Design, modelling, simulation, control, and implementation of power electronic converters and machine drives.</li>
-              <li>Model-based analysis in Simulink for DC-AC and DC-DC converters in continuous and discrete domains.</li>
-              <li>MATLAB programming for numerical analysis methods and artificial intelligence algorithms.</li>
-              <li>Technical support for OEMs, including datasheets, application notes, training, presentations, schematic review, PCB review, and failure analysis.</li>
-              <li>Testing and troubleshooting of DC-AC and DC-DC power converters.</li>
-              <li>Laboratory experience with oscilloscopes, dynamometers, power supplies, source meters, load emulators, power analysers, RLC meters, signal generators, thermal cameras, and logic analysers.</li>
-            </ul>
-          </article>
-        </div>
-        <p class="cv-note">The public website intentionally excludes private biodata, home address, and reference contact details while preserving the complete academic and professional profile.</p>`
-    }
-  ],
+  home: [],
 
   education: [
     {
