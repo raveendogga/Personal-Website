@@ -60,46 +60,7 @@ window.CV_DETAIL_SECTIONS = {
     }
   ],
 
-  grants: [
-    {
-      kicker: "Complete Project Context",
-      title: "Funding themes and project responsibilities",
-      body: `
-        <div class="detail-grid">
-          <article>
-            <h3>Power semiconductor characterization</h3>
-            <ul class="detail-list">
-              <li>DST-funded project on low-cost and highly efficient testing circuit for power semiconductor device characterization.</li>
-              <li>Industry-linked support from Measure India Corporation Private Limited for the same characterization theme.</li>
-              <li>Research links to energy recirculation circuits, high-stress device testing, and wide band-gap power device evaluation.</li>
-            </ul>
-          </article>
-          <article>
-            <h3>Solar PV power conversion</h3>
-            <ul class="detail-list">
-              <li>MSME-funded capacitor clamped boost inverter for on-grid solar PV applications.</li>
-              <li>GAIL Phank Scheme project on capacitor clamped boost inverter for distributed generation using renewable energy sources.</li>
-              <li>TIDES Business Incubator project on capacitor clamped boost inverter for solar power generation.</li>
-              <li>IUSSTF-funded single-stage inverter for solar PV systems.</li>
-            </ul>
-          </article>
-          <article>
-            <h3>Electric vehicle systems</h3>
-            <ul class="detail-list">
-              <li>MNNIT R&amp;C project on high performance switched reluctance motor drive for EV applications.</li>
-              <li>Research themes include EV on-board chargers, bidirectional AC-DC conversion, V2G capability, LLC resonant DC-DC conversion, and power conditioning units.</li>
-            </ul>
-          </article>
-          <article>
-            <h3>Hybrid energy storage</h3>
-            <ul class="detail-list">
-              <li>Renewable Energy Research Center, AUS project on energy efficiency and hybrid energy-storage systems.</li>
-              <li>Associated work on supercapacitor characterization, LC bidirectional converters, traction inverter modelling, and hybrid storage control.</li>
-            </ul>
-          </article>
-        </div>`
-    }
-  ],
+  grants: [],
 
   patents: [
     {
