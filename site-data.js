@@ -133,9 +133,19 @@ window.SITE_DATA = {
           kicker: "Research Training",
           title: "International research exposure",
           body: `
-            <div class="card-grid">
-              <article><h3>Post-Doctoral Research Associate</h3><p>Renewable Energy Research Center, American University of Sharjah, UAE. Focus: hybrid energy storage systems for electric vehicles, supercapacitor characterization, traction inverter analysis, and field-oriented control for automotive drives.</p></article>
-              <article><h3>Visiting Doctoral Researcher</h3><p>FREEDM Systems Center, NC State University, USA. Focus: power converter design, power semiconductor characterization, IGBT gate-drive design, DESAT/thermal protection, and sliding mode control for solar powered inverters.</p></article>
+            <div class="timeline">
+              <article>
+                <span>2019 &mdash; 2020</span>
+                <h3>Post-Doctoral Research Associate</h3>
+                <p><strong class="label-highlight">Institute:</strong> Renewable Energy Research Center, American University of Sharjah, UAE.<br>
+                <strong class="label-highlight">Focus:</strong> Hybrid energy storage systems for electric vehicles, supercapacitor characterization, traction inverter analysis, and field-oriented control for automotive drives.</p>
+              </article>
+              <article>
+                <span>2016</span>
+                <h3>Visiting Doctoral Researcher</h3>
+                <p><strong class="label-highlight">Institute:</strong> FREEDM Systems Center, NC State University, USA.<br>
+                <strong class="label-highlight">Focus:</strong> Power converter design, power semiconductor characterization, IGBT gate-drive design, DESAT/thermal protection, and sliding mode control for solar powered inverters.</p>
+              </article>
             </div>`
         },
         {
