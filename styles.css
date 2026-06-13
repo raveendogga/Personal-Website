@@ -590,3 +590,27 @@ tr:last-child td {
   display: inline-block;
   margin-top: 8px;
 }
+
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+}
+.tag-cloud span {
+  background-color: #f8fafc;
+  color: var(--navy);
+  padding: 8px 16px;
+  border-radius: 24px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+.tag-cloud span:hover {
+  transform: translateY(-2px);
+  background-color: var(--maroon);
+  color: var(--white);
+  border-color: var(--maroon);
+}
