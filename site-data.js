@@ -279,50 +279,7 @@ window.SITE_DATA = {
       title: "Publications",
       kicker: "Journals, Book Chapters, and Conferences",
       lead: "Latest CV metrics: 605 citations, h-index 14, i10-index 15. The CV lists journal papers, patent disclosures, 6 book chapters, and 37 conference proceedings.",
-      sections: [
-        {
-          kicker: "Journal Publications",
-          title: "Selected and latest journal work",
-          body: `
-            <div class="paper-list numbered">
-              <article><h3>Three-Phase Capacitor Clamped Boost Inverter</h3><p>D. Raveendhra and M. K. Pathak, IEEE Journal of Emerging and Selected Topics in Power Electronics, 2018. DOI: 10.1109/JESTPE.2018.2873154.</p></article>
-              <article><h3>Recent Trends in Solar PV Inverter Topologies</h3><p>Raveendhra Dogga and M. K. Pathak, Solar Energy, Elsevier, 2019. DOI: 10.1016/j.solener.2019.02.065.</p></article>
-              <article><h3>Supercapacitor Characterization Using Universal Adaptive Stabilization and Optimization</h3><p>S. Mukhopadhyay, R. Dhaouadi, M. Takrouri and R. Dogga, IEEE Open Journal of the Industrial Electronics Society, 2020. DOI: 10.1109/OJIES.2020.3008339.</p></article>
-              <article><h3>Analysis and Operation of High DC-AC Gain Three-Phase Capacitor Clamped Boost Inverter</h3><p>D. Raveendhra et al., Energies, 2022. DOI: 10.3390/en15082955.</p></article>
-              <article><h3>State-of-the-Art Technologies of DC Micro Grid with Hybrid Energy Storage Systems</h3><p>Dogga Raveendhra et al., Energies, 2023. DOI: 10.3390/en16020923.</p></article>
-              <article><h3>Impact of Parasitics on the Dynamic Performance of Capacitor Clamped Bidirectional DC-DC Converter</h3><p>Raveendhra D. et al., IET Power Electronics, 2025. DOI: 10.1049/pel2.70059.</p></article>
-              <article><h3>Extraction and Energy Management of Solar PV, Fuel Cell, and Battery Systems Using a Novel Multi Port Power Converter</h3><p>G. Nagesh, D. Raveendhra et al., IEEE Access, 2025. DOI: 10.1109/ACCESS.2025.3570190.</p></article>
-              <article><h3>Integration of Renewable Energy Sources with Energy Storage Devices Using a Novel Four Port Converter</h3><p>G. Nagesh, D. Raveendhra et al., Engineering Research Express, 2025. DOI: 10.1088/2631-8695/ade224.</p></article>
-              <article><h3>High Voltage Gain Transformer-Less DC-DC Converter for Fuel Cell Electric Vehicles</h3><p>Guguloth Nagesh, Dogga Raveendhra et al., IEEE Open Journal of the Industrial Electronics Society. Accepted.</p></article>
-              <article><h3>Neutralized CMV Inverter for Electrical Vehicle Applications</h3><p>Dogga Raveendhra, Douglas C Hopkins, Utkarsh Mehrotra, Hady H. Fayek. In communication.</p></article>
-            </div>`
-        },
-        {
-          kicker: "Book Chapters",
-          title: "Book chapters and edited-volume contributions",
-          body: `
-            <ul class="feature-list compact">
-              <li>Effects of Common Mode Voltage in ZSI based Induction Motor Drive for EV applications.</li>
-              <li>Single Stage Power Conditioning Unit for Battery Assisted, Solar Powered Remote Area Power Supply.</li>
-              <li>FPGA Controlled Power Conditioning System for Solar PV Fed PMDC Motor, Springer Lecture Notes in Electrical Engineering.</li>
-              <li>Quantification of Voltage Unbalance Conditions, Springer Lecture Notes in Electrical Engineering.</li>
-              <li>Simulation-based study of FPGA based controller for Single-Phase Matrix Converter for different types of loads.</li>
-              <li>A Review on Hybridization and Energy Management Strategies for Hydrogen based Fuel Cell Electric Vehicle Applications, Taylor & Francis.</li>
-            </ul>`
-        },
-        {
-          kicker: "Recent Conference Proceedings",
-          title: "2024-2025 conference work from the latest CV",
-          body: `
-            <div class="paper-list">
-              <article><h3>Higher Order Sliding Robust Control Design for Single-Stage Plugin Electric Vehicle</h3><p>Mohammad Asif Ali, Aman Keshri, Dogga Raveendhra, BL Narasimha Raju. iTEC India 2025, Pune. Accepted.</p></article>
-              <article><h3>Robust Controller for Single-Stage Isolated Power Conditioning Unit On-Board Charger</h3><p>Mohammad Asif Ali, Aman Keshri, Dogga Raveendhra, Suneel Raju Pendem, BL Narasimha Raju and Pradyumn Chaturvedi. STPEC 2025, Goa. Accepted.</p></article>
-              <article><h3>Performance Investigation and Characterization of High-Power Semiconductor Devices using ERSC</h3><p>Aman Keshari, Mohammad Asif Ali, Dogga Raveendhra, Suneel Raju Pendem, BL Narasimharaju. STPEC 2025, Goa. Accepted.</p></article>
-              <article><h3>High Performance Solar Powered EV Charger</h3><p>Abhinav Kumar Singh and Dogga Raveendhra. IEEE SeFeT 2024, Hyderabad.</p></article>
-              <article><h3>Robust Controller for EV Onboard Charger for Grid Resilience under Weak Grid Conditions</h3><p>Varun Sharma, Dogga Raveendhra, Souradip Dey. IEEE SeFeT 2024, Hyderabad.</p></article>
-              <article><h3>Development of Characterization Circuit for Power Semiconductor Devices</h3><p>Gyanendra Vaishya, Dheeraj Saini, Yugal Patidar, Dogga Raveendhra, BL Narasimha Raju, Praveen J. IEEE SeFeT 2024, Hyderabad.</p></article>
-            </div>`
-        }
+      sections: []
       ]
     },
     projects: {
