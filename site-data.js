@@ -110,6 +110,12 @@ window.SITE_DATA = {
                 <strong class="highlight-award">Excellence in Doctoral Research Award</strong></p>
               </article>
               <article>
+                <span>2016</span>
+                <h3>Visiting Doctoral Researcher</h3>
+                <p><strong class="label-highlight">Institute:</strong> FREEDM Systems Center, NC State University, USA.<br>
+                <strong class="label-highlight">Focus:</strong> Power converter design, power semiconductor characterization, IGBT gate-drive design, DESAT/thermal protection, and sliding mode control for solar powered inverters.</p>
+              </article>
+              <article>
                 <span>2012</span>
                 <h3>M.Tech., Electrical Drives and Power Electronics</h3>
                 <p><strong class="label-highlight">Institute:</strong> Indian Institute of Technology Roorkee.<br>
