@@ -78,40 +78,7 @@ window.SITE_DATA = {
               </article>
             </div>`
         },
-        {
-          kicker: "Highlights",
-          title: "At a glance",
-          body: `
-            <ul class="feature-list">
-              <li>Excellence in Doctoral Research Award, IIT Roorkee.</li>
-              <li>Founder, Zunik Energies (IIT Roorkee Incubated Startup).</li>
-              <li>BASE Fellowship (DST/IUSSTF) at NC State University.</li>
-              <li>Delegate at SLUSH 2018 (Finland) and India-Italy Summit.</li>
-              <li>Albert Nelson Marquis Lifetime Achievement Award.</li>
-            </ul>`
-        },
-        {
-          kicker: "Experience",
-          title: "Academic & Industry Journey",
-          body: `
-            <div class="timeline">
-              <article><span>2023 - Present</span><h3>Assistant Professor</h3><p>MNNIT Allahabad / NIT Warangal</p></article>
-              <article><span>2022 - 2023</span><h3>Senior Engineering Consultant</h3><p>ALTEN GmbH, Germany</p></article>
-              <article><span>2019 - 2020</span><h3>Post-Doctoral Researcher</h3><p>American Univ. of Sharjah, UAE</p></article>
-              <article><span>2016</span><h3>Visiting Doctoral Researcher</h3><p>NC State University, USA</p></article>
-            </div>`
-        },
-        {
-          kicker: "Featured Publications",
-          title: "Recent high-impact research",
-          body: `
-            <div class="carousel-container">
-              <article><h3>State-of-the-Art Technologies of DC Micro Grid</h3><p>Energies, 2023.</p><p class="impact">A comprehensive review of modern architectures and control strategies.</p></article>
-              <article><h3>Supercapacitor Characterization</h3><p>IEEE Open Journal, 2020.</p><p class="impact">Novel adaptive stabilization techniques for improved energy storage.</p></article>
-              <article><h3>High DC-AC Gain Inverter</h3><p>Energies, 2022.</p><p class="impact">Three-phase capacitor clamped boost inverter topology for solar integration.</p></article>
-              <article><h3>Impact of Parasitics</h3><p>IET Power Electronics, 2025.</p><p class="impact">In-depth dynamic performance analysis of power converters.</p></article>
-            </div>`
-        },
+
         {
           kicker: "Contact",
           title: "Get in touch",
