@@ -119,8 +119,7 @@ window.SITE_DATA = {
               <article>
                 <span>2009</span>
                 <h3>B.Tech., Electrical and Electronics Engineering</h3>
-                <p><strong class="label-highlight">Institute:</strong> JNTU Kakinada.<br>
-                <strong class="label-highlight">Score:</strong> 65.63%.</p>
+                <p><strong class="label-highlight">Institute:</strong> JNTU Kakinada.</p>
               </article>
             </div>`
         },
