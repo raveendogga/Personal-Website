@@ -94,7 +94,7 @@ window.SITE_DATA = {
     education: {
       title: "Education",
       kicker: "Academic Formation",
-      lead: "Education and research training from JNTU Kakinada, IIT Roorkee, NC State University, and the Renewable Energy Research Center at American University of Sharjah.",
+      lead: "Education and research training from JNTU Kakinada, IIT Roorkee, NC State University, and the Renewable Energy Research Center at AUS.",
       sections: [
         {
           kicker: "Degrees",
@@ -137,7 +137,7 @@ window.SITE_DATA = {
               <article>
                 <span>2019 &mdash; 2020</span>
                 <h3>Post-Doctoral Research Associate</h3>
-                <p><strong class="label-highlight">Institute:</strong> Renewable Energy Research Center, American University of Sharjah, UAE.<br>
+                <p><strong class="label-highlight">Institute:</strong> Renewable Energy Research Center, AUS, UAE.<br>
                 <strong class="label-highlight">Focus:</strong> Hybrid energy storage systems for electric vehicles, supercapacitor characterization, traction inverter analysis, and field-oriented control for automotive drives.</p>
               </article>
               <article>
@@ -175,7 +175,7 @@ window.SITE_DATA = {
           body: `
             <div class="timeline">
               <article><span>Dec 2022 - Jun 2023</span><h3>Senior Engineering Consultant, ALTEN GmbH, Germany</h3><p>Developed controller algorithms for electric vehicle on-board chargers and implemented innovative research for EV power converters.</p></article>
-              <article><span>Sep 2019 - Jun 2020</span><h3>Post-Doctoral Research Associate, American University of Sharjah, UAE</h3><p>Worked on hybrid energy storage systems for EVs, supercapacitor characterization using SiC converters, loss-thermal modelling of SVM inverters, traction inverter ripple and capacitor sizing, fault and transient analysis, and 400 V IPM traction drive control.</p></article>
+              <article><span>Sep 2019 - Jun 2020</span><h3>Post-Doctoral Research Associate, AUS, UAE</h3><p>Worked on hybrid energy storage systems for EVs, supercapacitor characterization using SiC converters, loss-thermal modelling of SVM inverters, traction inverter ripple and capacitor sizing, fault and transient analysis, and 400 V IPM traction drive control.</p></article>
               <article><span>Jul 2016 - Nov 2016</span><h3>Visiting Doctoral Researcher, NC State University, USA</h3><p>Designed and developed power converters for solar PV systems, power semiconductor characterization circuits, IGBT gate-drive circuits, protection circuits, and sliding mode controllers for solar powered inverters.</p></article>
             </div>`
         },
@@ -241,7 +241,7 @@ window.SITE_DATA = {
               <tr><td>Design of low cost and highly efficient testing circuit for power semiconductor device characterization</td><td>DST, Government of India</td><td>Rs. 44.7 lakhs</td><td>2022-25</td></tr>
               <tr><td>Capacitor Clamped Boost Inverter for on-grid Solar PV Applications</td><td>MSME, Government of India</td><td>Rs. 15 lakhs</td><td>2022-23</td></tr>
               <tr><td>High Performance Switched Reluctance Motor Drive for EV Applications</td><td>R&C Department, MNNIT</td><td>Rs. 5 lakhs</td><td>2023-24</td></tr>
-              <tr><td>Innovative Research in Energy Efficiency and Hybrid Energy-Storage Systems</td><td>Renewable Energy Research Center, American University of Sharjah, UAE</td><td>Rs. 38.5 lakhs</td><td>2019-20</td></tr>
+              <tr><td>Innovative Research in Energy Efficiency and Hybrid Energy-Storage Systems</td><td>Renewable Energy Research Center, AUS, UAE</td><td>Rs. 38.5 lakhs</td><td>2019-20</td></tr>
               <tr><td>Capacitor Clamped Boost Inverter for Distributed Power Generation using Renewable Energy Sources</td><td>GAIL Phank Scheme, GAIL India Ltd.</td><td>Rs. 140 lakhs</td><td>2019-2021</td></tr>
               <tr><td>Capacitor Clamped Boost Inverter for Solar Power Generation</td><td>TIDES Business Incubator, IIT Roorkee</td><td>Rs. 80,000 prototyping grant plus incubation facilities worth Rs. 22 lakhs</td><td>Aug 2017 - Aug 2020</td></tr>
               <tr><td>Single Stage Inverter for Solar PV System</td><td>IUSSTF, Government of India</td><td>Rs. 10.4 lakhs</td><td>2016</td></tr>
@@ -335,7 +335,7 @@ window.SITE_DATA = {
           title: "Representative research projects",
           body: `
             <div class="card-grid">
-              <article><h3>LC Impedance Source Bi-Directional Converter</h3><p>Renewable Energy Center, American University of Sharjah. Redesigned reduced-component bidirectional DC-DC converter with lower capacitor voltage stress, state-space modelling, simulation, and prototype comparison.</p></article>
+              <article><h3>LC Impedance Source Bi-Directional Converter</h3><p>Renewable Energy Center, AUS. Redesigned reduced-component bidirectional DC-DC converter with lower capacitor voltage stress, state-space modelling, simulation, and prototype comparison.</p></article>
               <article><h3>Supercapacitor Characterization</h3><p>Adaptive stabilization and optimization based parameter identification for supercapacitor models under EV-like cyclic current and voltage profiles.</p></article>
               <article><h3>Novel Testing Circuit for Power Electronic Device Characterization</h3><p>FREEDM Systems Center, NC State University. Energy recirculation circuit for high stress device testing using low power sources.</p></article>
               <article><h3>Efficient Single-Stage Power Converter for Solar PV</h3><p>IIT Roorkee. Single-phase and three-phase capacitor clamped boost DC-AC inverter development with intrinsic boost capability and digital control.</p></article>

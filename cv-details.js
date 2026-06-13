@@ -40,7 +40,7 @@ window.CV_DETAIL_SECTIONS = {
             </ul>
           </details>
           <details>
-            <summary>Post-Doctoral Research Associate, Renewable Energy Research Center, American University of Sharjah</summary>
+            <summary>Post-Doctoral Research Associate, Renewable Energy Research Center, AUS</summary>
             <ul class="detail-list">
               <li>Developed research for hybrid energy storage systems of electric vehicles.</li>
               <li>Developed prototypes and tools for hybrid energy storage systems.</li>
@@ -150,7 +150,7 @@ window.CV_DETAIL_SECTIONS = {
             <ul class="detail-list">
               <li>Research travel and work in USA, Germany, Malaysia, and UAE.</li>
               <li>FREEDM Systems Center, North Carolina State University, USA.</li>
-              <li>Renewable Energy Research Center, American University of Sharjah, UAE.</li>
+              <li>Renewable Energy Research Center, AUS, UAE.</li>
               <li>Senior engineering consulting work with ALTEN GmbH, Germany.</li>
             </ul>
           </article>
@@ -199,7 +199,7 @@ window.CV_DETAIL_SECTIONS = {
           <article>
             <h3>Hybrid energy storage</h3>
             <ul class="detail-list">
-              <li>Renewable Energy Research Center, American University of Sharjah project on energy efficiency and hybrid energy-storage systems.</li>
+              <li>Renewable Energy Research Center, AUS project on energy efficiency and hybrid energy-storage systems.</li>
               <li>Associated work on supercapacitor characterization, LC bidirectional converters, traction inverter modelling, and hybrid storage control.</li>
             </ul>
           </article>
@@ -329,11 +329,11 @@ window.CV_DETAIL_SECTIONS = {
       body: `
         <div class="accordion-list">
           <details open>
-            <summary>LC Impedance Source Bi-Directional Converter - American University of Sharjah</summary>
+            <summary>LC Impedance Source Bi-Directional Converter - AUS</summary>
             <p>The project proposed an LC impedance source bidirectional DC-DC converter by rearranging and reducing components from a switched boost bidirectional DC-DC converter. The topology targets lower component count and reduced capacitor voltage stress, improving reliability and converter lifespan. Mathematical modelling, state-space averaging, MATLAB/Simulink comparison, and 24 V to 18 V hardware experiments were used to compare it with conventional bidirectional, Z-source, quasi-Z-source, improved Z-source, switched boost, current-fed switched boost, and quasi switched boost converters.</p>
           </details>
           <details>
-            <summary>Supercapacitor characterization - American University of Sharjah</summary>
+            <summary>Supercapacitor characterization - AUS</summary>
             <p>The project presented a simplified supercapacitor model and a universal adaptive stabilization and optimization based parameter identification method. It developed analytical current-voltage relationships for cyclic sources under EV-like drive cycles, modelled hysteresis and simultaneous energy storage/dissipation, and validated the approach through mathematical proof, simulation, and experiment.</p>
           </details>
           <details>
@@ -573,7 +573,7 @@ window.CV_DETAIL_SECTIONS = {
           </details>
           <details>
             <summary>What funded projects are included?</summary>
-            <p>The Grants/Fund page includes DST, MSME, MNNIT R&amp;C, American University of Sharjah, GAIL Phank Scheme, TIDES IIT Roorkee, IUSSTF, and Measure India Corporation projects from the CV.</p>
+            <p>The Grants/Fund page includes DST, MSME, MNNIT R&amp;C, AUS, GAIL Phank Scheme, TIDES IIT Roorkee, IUSSTF, and Measure India Corporation projects from the CV.</p>
           </details>
           <details>
             <summary>What student guidance details are included?</summary>
